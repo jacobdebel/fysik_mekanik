@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8"/>
+<title>Kinematik</title>
+<meta name="author" content="Jacob Debel"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h2>Kinematik</h2><h3>Beskrivelse af bevægelse</h3><h4>Jacob Debel</h4><h4>Fysik B</h4>
+</section>
+
+
+<section>
+<section id="slide-orgfd07659" data-background="">
+<h2 id="orgfd07659">Det grundlæggende</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Størrelse</th>
+<th scope="col" class="org-left">Symbol</th>
+<th scope="col" class="org-left">Enhed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Tid</td>
+<td class="org-left">\(t\)</td>
+<td class="org-left">s (sekunder)</td>
+</tr>
+
+<tr>
+<td class="org-left">Strækning</td>
+<td class="org-left">\(s\)</td>
+<td class="org-left">m (meter)</td>
+</tr>
+
+<tr>
+<td class="org-left">Hastighed</td>
+<td class="org-left">\(v\)</td>
+<td class="org-left">m/s (eller km/h)</td>
+</tr>
+
+<tr>
+<td class="org-left">Acceleration</td>
+<td class="org-left">\(a\)</td>
+<td class="org-left">m/s²</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+</section>
+<section>
+<section id="slide-org357555b" data-background="">
+<h2 id="org357555b">3 diagrammer</h2>
+<div style="display: grid; grid-template-columns: auto auto auto;">
+<div>
+<p>
+(t,s)-diagram
+</p>
+
+
+<div id="orgdaaba80" class="figure">
+<p><img src="./img/ts_diagram.png" alt="ts_diagram.png" />
+</p>
+</div>
+</div>
+
+<div>
+<p>
+(t,v)-diagram
+</p>
+
+
+<div id="org54e25c9" class="figure">
+<p><img src="./img/tv_diagram.png" alt="tv_diagram.png" />
+</p>
+</div>
+</div>
+
+<div>
+<p>
+(t,a)-diagram
+</p>
+
+
+<div id="org621a499" class="figure">
+<p><img src="./img/ta_diagram.png" alt="ta_diagram.png" />
+</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org17e0c67" data-background="">
+<h2 id="org17e0c67">Konstant hastighed</h2>
+
+<div id="org760afbb" class="figure">
+<p><img src="./img/IC3tog.jpg" alt="IC3tog.jpg" height="500px" />
+</p>
+</div>
+
+</section>
+<section id="slide-org741bb6c" data-background="">
+<h3 id="org741bb6c">Formler</h3>
+<div style="font-size: 60%;">
+<ul>
+<li>Accelerationen er nul: \(a=0 m/s^2\)</li>
+<li>(Gennemsnits)hastigheden beregnes som:
+\[\boxed{v = \frac{\Delta s}{\Delta t}\,} = \frac{s_{slut}-s_{start}}{\Delta t}\]</li>
+<li>Strækningsfunktion:
+\[\boxed{s(t) = v \cdot t + s_{start}}\]</li>
+
+</ul>
+</div>
+
+</section>
+<section id="slide-orgbc4ea7f" data-background="">
+<h3 id="orgbc4ea7f">Hvad siger I?</h3>
+
+<div id="org5ef08c9" class="figure">
+<p><img src="./img/bus_cykel_bil.png" alt="bus_cykel_bil.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-org7790c41" data-background="">
+<h3 id="org7790c41">De 3 diagrammer</h3>
+<div style="display: grid; grid-template-columns: auto auto auto;">
+<div>
+<p>
+Strækning
+</p>
+
+
+<div id="org345ee23" class="figure">
+<p><img src="./img/bus_cykel_bil.png" alt="bus_cykel_bil.png" />
+</p>
+</div>
+</div>
+
+<div>
+<p>
+Hastighed
+</p>
+
+
+<div id="org04d22dc" class="figure">
+<p><img src="./img/bus_cykel_bil_v.png" alt="bus_cykel_bil_v.png" />
+</p>
+</div>
+</div>
+
+<div>
+
+<p>
+Acceleration
+</p>
+
+
+<div id="orgdcdc7e9" class="figure">
+<p><img src="./img/bus_cykel_bil_a.png" alt="bus_cykel_bil_a.png" />
+</p>
+</div>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org4e33968" data-background="">
+<h2 id="org4e33968">Konstant acceleration</h2>
+
+<div id="org51efd77" class="figure">
+<p><img src="./img/sprint.jpg" alt="sprint.jpg" height="500px" />
+</p>
+</div>
+
+</section>
+<section id="slide-orgc9650aa" data-background="">
+<h3 id="orgc9650aa">Formler</h3>
+<div style="font-size: 50%;">
+<ul>
+<li>Accelerationen er <i>konstant</i>: \(a=k\)</li>
+<li>Gennemsnitsaccelerationen beregnes som:
+\[\boxed{a = \frac{\Delta v}{\Delta t}} = \frac{v_{slut}-v_{start}}{\Delta t}\]</li>
+<li>Hastighedsfunktionen:
+\[\boxed{v(t) = a \cdot t + v_{start}}\]</li>
+<li>Strækningsfunktionen:
+\[\boxed{s(t) = \frac{1}{2}\cdot a \cdot t^2+ v_{start}\cdot t+s_{start}}\]</li>
+<li>Hjælpesætningen/bremsesætningen:
+\[\boxed{s_{slut}-s_{start} = \frac{v_{slut}^2-v_{start}^2}{2 \cdot a}}\]</li>
+
+</ul>
+</div>
+
+</section>
+<section id="slide-orgbbbacfe" data-background="">
+<h4 id="orgbbbacfe">Hvad kan vi li'?</h4>
+<div style="font-size: 150%;">
+<p>
+<del>algebri</del> algebra
+</p>
+</div>
+
+<div style="font-size: 60%;">
+<p>
+Kombinér
+</p>
+
+<p>
+\[v_{slut} = a \cdot t + v_{start}\]
+</p>
+
+<p>
+og
+</p>
+
+<p>
+\[s_{slut} = \frac{1}{2} \cdot a \cdot t^2 + v_{start} \cdot t + s_{start}\]
+</p>
+
+<p>
+ved at isolere \(t\) i den første ligning og indsætte udtrykket i den anden.
+</p>
+
+<p>
+I skal kunne komme frem til:
+</p>
+
+<p>
+\[s_{slut}- s_{start} = \frac{v_{slut}^2-v_{start}^2}{2 a}\]
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3200341" data-background="">
+<h2 id="org3200341">Lidt om grafer</h2>
+<div style="display: grid; grid-template-columns: 60% auto;">
+<div>
+
+<div id="orgc48f941" class="figure">
+<p><img src="./img/20241122_123145.jpg" alt="20241122_123145.jpg" />
+</p>
+</div>
+</div>
+
+<div>
+<p>
+Men også:
+</p>
+
+<ul>
+<li><b>Arealet</b> under <b>accelerationsgrafen</b> giver <b>hastigheden</b>.</li>
+<li><b>Arealet</b> under <b>hastighedsgrafen</b> giver <b>strækningen</b>.</li>
+
+</ul>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3e7902e" data-background="">
+<h2 id="org3e7902e">Lidt om infinitesimalregning</h2>
+<div style="font-size: 50%;">
+<p>
+Det kan siges kort
+</p>
+
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<div>
+\begin{align*}
+a(t) &= v'(t) = s''(t) \\
+a(t) &= \frac{d v(t)}{dt} = \frac{d^2 s(t)}{dt^2} \\
+v(t) &= s'(t) \\
+v(t) &= \frac{d s(t)}{dt}
+\end{align*}
+
+</div>
+</div>
+
+<div>
+<div>
+\begin{align*}
+s(t) &= \int v(t) \,dt = \int \int a(t) \, dt \, dt \\
+v(t) &= \int a(t) \,dt
+\end{align*}
+
+</div>
+</div>
+</div>
+<p class="fragment (appear)">
+Men WTF betyder det!?
+</p>
+
+<ul>
+<li class="fragment appear">Differentier strækningen for at få hastigheden. Differentier hastigheden for at få accelerationen.</li>
+<li class="fragment appear">Integrer accelerationen for at få hastigheden. Integrer hastigheden for at få strækningen.</li>
+<li class="fragment appear">Prøv det selv af med \(s(t) = \frac{1}{2} a t^2 + v_0 t + s_0\).</li>
+
+</ul>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orge392fd5" data-background="">
+<h2 id="orge392fd5">Simple opgaver</h2>
+<div style="font-size: 60%;">
+<p>
+Klik(højreklik) på figuren for at se (downloade) dokumentet.
+</p>
+</div>
+
+
+
+<div id="orge36c288" class="figure">
+<p><a href="../11_kinematik_simple_opgaver/Kinematikopgaver.pdf" height="500px"><img src="./img/simple_opgaver_forside.png" alt="simple_opgaver_forside.png" height="500px" /></a>
+</p>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'slide',
+transitionSpeed: 'default',
+slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true,
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>

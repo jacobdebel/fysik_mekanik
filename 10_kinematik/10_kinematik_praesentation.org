@@ -1,0 +1,175 @@
+#+title: Kinematik
+#+subtitle: Beskrivelse af bevægelse
+#+author: Jacob Debel 
+#+date: Fysik B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* Det grundlæggende
+| Størrelse    | Symbol | Enhed            |
+|--------------+--------+------------------|
+| Tid          | $t$    | s (sekunder)     |
+| Strækning    | $s$    | m (meter)        |
+| Hastighed    | $v$    | m/s (eller km/h) |
+| Acceleration | $a$    | m/s²             |
+|--------------+--------+------------------|
+
+* 3 diagrammer
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto auto;">
+#+reveal_html: <div>
+(t,s)-diagram
+
+[[./img/ts_diagram.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+(t,v)-diagram
+
+[[./img/tv_diagram.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+(t,a)-diagram
+
+[[./img/ta_diagram.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+* Konstant hastighed
+#+attr_html: :height 500px
+[[./img/IC3tog.jpg]]
+
+** Formler
+#+reveal_html: <div style="font-size: 60%;">
+- Accelerationen er nul: $a=0 m/s^2$
+- (Gennemsnits)hastigheden beregnes som:
+  $$\boxed{v = \frac{\Delta s}{\Delta t}\,} = \frac{s_{slut}-s_{start}}{\Delta t}$$
+- Strækningsfunktion:
+  $$\boxed{s(t) = v \cdot t + s_{start}}$$
+#+reveal_html: </div>
+
+** Hvad siger I?
+[[./img/bus_cykel_bil.png]]
+
+** De 3 diagrammer
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto auto;">
+#+reveal_html: <div>
+Strækning
+
+[[./img/bus_cykel_bil.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Hastighed
+
+[[./img/bus_cykel_bil_v.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+
+Acceleration
+
+[[./img/bus_cykel_bil_a.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Konstant acceleration
+#+attr_html: :height 500px
+[[./img/sprint.jpg]]
+
+** Formler
+#+reveal_html: <div style="font-size: 50%;">
+- Accelerationen er /konstant/: $a=k$
+- Gennemsnitsaccelerationen beregnes som:
+  $$\boxed{a = \frac{\Delta v}{\Delta t}} = \frac{v_{slut}-v_{start}}{\Delta t}$$
+- Hastighedsfunktionen:
+  $$\boxed{v(t) = a \cdot t + v_{start}}$$
+- Strækningsfunktionen:
+  $$\boxed{s(t) = \frac{1}{2}\cdot a \cdot t^2+ v_{start}\cdot t+s_{start}}$$
+- Hjælpesætningen/bremsesætningen:
+  $$\boxed{s_{slut}-s_{start} = \frac{v_{slut}^2-v_{start}^2}{2 \cdot a}}$$
+#+reveal_html: </div>
+
+*** Hvad kan vi li'? 
+#+reveal_html: <div style="font-size: 150%;">
++algebri+ algebra
+#+reveal_html: </div>
+
+#+reveal_html: <div style="font-size: 60%;">
+Kombinér
+
+$$v_{slut} = a \cdot t + v_{start}$$
+
+og
+
+$$s_{slut} = \frac{1}{2} \cdot a \cdot t^2 + v_{start} \cdot t + s_{start}$$
+
+ved at isolere $t$ i den første ligning og indsætte udtrykket i den anden.
+
+I skal kunne komme frem til:
+
+$$s_{slut}- s_{start} = \frac{v_{slut}^2-v_{start}^2}{2 a}$$
+#+reveal_html: </div>
+
+* Lidt om grafer
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+[[./img/20241122_123145.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Men også:
+
+- *Arealet* under *accelerationsgrafen* giver *hastigheden*.
+- *Arealet* under *hastighedsgrafen* giver *strækningen*.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Lidt om infinitesimalregning
+#+reveal_html: <div style="font-size: 50%;">
+Det kan siges kort
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+\begin{align*}
+a(t) &= v'(t) = s''(t) \\
+a(t) &= \frac{d v(t)}{dt} = \frac{d^2 s(t)}{dt^2} \\
+v(t) &= s'(t) \\
+v(t) &= \frac{d s(t)}{dt}
+\end{align*}
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+\begin{align*}
+s(t) &= \int v(t) \,dt = \int \int a(t) \, dt \, dt \\
+v(t) &= \int a(t) \,dt
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+attr_reveal: :frag (appear)
+Men WTF betyder det!?
+
+#+attr_reveal: :frag (appear)
+- Differentier strækningen for at få hastigheden. Differentier hastigheden for at få accelerationen.
+- Integrer accelerationen for at få hastigheden. Integrer hastigheden for at få strækningen.
+- Prøv det selv af med $s(t) = \frac{1}{2} a t^2 + v_0 t + s_0$.
+#+reveal_html: </div>
+
+* Simple opgaver
+#+reveal_html: <div style="font-size: 60%;">
+Klik(højreklik) på figuren for at se (downloade) dokumentet.
+#+reveal_html: </div>
+
+
+#+attr_html: :height 500px
+[[../11_kinematik_simple_opgaver/Kinematikopgaver.pdf][file:./img/simple_opgaver_forside.png]]
+
+
