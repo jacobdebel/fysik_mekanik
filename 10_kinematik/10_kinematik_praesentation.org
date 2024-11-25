@@ -172,4 +172,80 @@ Klik(højreklik) på figuren for at se (downloade) dokumentet.
 #+attr_html: :height 500px
 [[../11_kinematik_simple_opgaver/Kinematikopgaver.pdf][file:./img/simple_opgaver_forside.png]]
 
+* Terningen er kastet
+#+begin_quote
+Alea iacta est
+#+end_quote
 
+#+attr_html: :height 400px
+[[./img/caesar_terningerne_er_kastet.jpeg]]
+
+** Ingen latin - bare forsøg
+#+reveal_html: <div style="font-size: 40%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Apparatur*
+- En genstand som tåler at blive kastet.
+- Videokamera (mobiltelefon er god nok).
+- Stativ til at fæstne videokamera.
+- Tommestok, målepind, eller noget andet med en kendt længde.
+
+
+*Forsøgsvejledning*
+- Montér kamera(mobil) i stativ, så optagelse kan startes og stoppes.
+- Placer en person med genstanden i hånden i kameraets synsfelt. Målepinden skal også være i samme synsfelt og i samme afstand til kameraet som personen.
+- Personen kaster nu genstanden i en bue. Hele kastebuen skal kunne være inden for kameraets synsfelt.
+- Optag et enkelt kast.
+- Overfør videoen til en computer.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Databehandling*
+- Foretag en videoanalyse med f.eks. capstone eller Tracker.
+  - Tracker kan downloades her: https://physlets.org/tracker/
+  - Vejledning til captone: https://go.screenpal.com/watch/cqXvXlU5hq
+  - Vejledning til tracker: https://youtu.be/8_1ew6W-9B8?si=XhxDl5N5q_dVsitl
+- Udarbejd (t,s), (t,v) og (t,a)-grafer for den vandrette og lodrette bevægelse hver for sig.
+
+*Diskussion*
+- Hvad kan I sige om bevægelserne langs de to akser?
+- Kan I genkende en talværdi, som I måske kender fra tidligere? Hvad er afvigelsen af denne værdi?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+* Ballistisk bevægelse
+[[./img/angry_birds.webp]]
+
+** Lidt formler
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*x-aksen*
+
+Bevægelse med konstant hastighed.
+
+- $a_x = 0$
+- $v_x = v_0 \cdot \cos \left( \alpha \right) = \text{konstant}$
+- $x(t) = v_0 \cdot \cos \left( \alpha \right) \cdot t + x_0$
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*y-aksen*
+
+Bevægelse med konstant acceleration.
+
+- $a_y = - g = - 9.82 m/s^2$
+- $v_y(t) = v_0 \cdot \sin \left( \alpha \right) - g \cdot t$
+- $y(t) = - \frac{1}{2} \cdot g \cdot t^2 + v_0 \cdot \sin \left( \alpha \right) \cdot t + y_0$
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgaver
+#+attr_html: :height 450px
+[[../12_kinematik_ballistisk_bevaegelse/Opgaver_ballistisk_bevaegelse.pdf][file:./img/ballistisk_bevaegelse_opgaver.png]]
+#+reveal_html: <div style="font-size: 60%;">
+- Åbn eller download opgaverne ved at trykke på billedet.
+#+reveal_html: </div>

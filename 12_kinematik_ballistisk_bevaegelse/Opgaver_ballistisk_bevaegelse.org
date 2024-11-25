@@ -1,0 +1,82 @@
+#+title: Mekanik
+#+subtitle: Ballistisk bevægelse (Det skrå kast)
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:nil tags:nil toc:nil num:nil # Only for org export
+# #+toc: t # For pandoc export
+# #+numbersections: t # For pandoc export
+
+
+* Opgave 1 
+
+En fodbold sparkes afsted med en starthastighed på 16 m/s og en vinkel på 20 grader med vandret.
+
+1. Indtegn bolden og startbetingelserne i et selvvalgt koordinatsystem.
+2. Bestem den tid det tager for bolden at nå sit toppunkt.
+3. Hvad er koordinaterne til toppunktet i jeres selvvalgte koordinatsystem?
+4. Bestem den maksimale længde(kastevidden).
+5. (Ekstra) Hvor lang skal afstanden være for at bolden netop rammer overlæggeren på et 11-mandsmål, hvis det overhovedet er muligt? (Højden er 2.44 m) 
+
+* Opgave 2
+
+En kugle triller med konstant hastighed hen over en vandret bordplade i højden 85 cm over gulvet. Kuglen lander 40 cm fra bordkantens lodrette projektion på gulvet.
+
+1. Tegn en skitse over situationen.
+2. Hvor lang er faldtiden?
+3. Hvad var kuglens hastighed umiddelbart før den forlod bordpladen?
+4. Hvad er kuglens fart umiddelbart før den rammer gulvet?
+
+\newpage
+
+* Opgave 3
+
+En golfspiller står ved et “dogleg” par 4-hul.
+
+#+attr_latex: :width 0.7\linewidth
+[[file:img/golf.png]]
+
+Golfspilleren ved at han kan slå 250 m med sin driver, som har en vinkel på 11 grader.
+
+1. Vis, for sådan et slag, at boldens tid i luften er 3.14 sek og boldens starthastighed er 80.95 m/s. (To ligninger med to ubekendte.)
+2. Kan spilleren, med et sådant slag, tage en genvej hen over træerne eller skal han spille den safe? Træerne 100 m foran ham er 12 m høje.
+
+
+* Opgave 4
+
+“Ghost Rider” vil forsøge et spring som vist på figuren.
+#+begin_center
+#+attr_latex: :height 0.23\textwidth :center
+[[file:img/2019-10-30_10-35-14_maxresdefault.jpg]]
+#+attr_latex: :height 0.23\textwidth :center
+[[file:img/ghost_rider.png]]
+#+end_center
+
+Rampen hælder 15 grader med vandret, og starthastigheden er 100 km/h.
+
+1. Hvor højt passerer han over kanten på plateauet?
+2. Hvor lang tid er han i luften inden han lander på plateauet?
+3. Hvad er den minimale fart Ghost Rider kan have for at springet fuldføres?
+
+* Opgave 5 (Ekstra)
+
+1. Find, via de generelle formler for det skrå kast, et udtryk for nedslagstiden som funktion af “affyringsvinklen”.
+2. Bestem den affyringsvinkel som giver den maksimale længde.
+
+# * Opgave 4
+
+# Tagfladen på et hus danner en vinkel på 50 grader med vandret. Efter et kraftigt snefald bliver det tøvejr, og sneen kan herved glide frit 6.5 m ned ad tagfladen og ud over tagrenden uden nævneværdig friktion. Tagrenden befinder sig 2.5 m over jorden.
+
+# 1. Tegn situationen ind i et koordinatsystem.
+# 2. Bestem den maksimale hastighed(størrelse og retning) en sneflage kan opnå i det den forlader taget.
+# 3. Hvad er faldtiden fra sneflagen forlader taget til den rammer jorden?
+# 4. Hvor langt væk fra tagrendens lodrette projektion på jorden kan sneflagen maksimal komme?
+

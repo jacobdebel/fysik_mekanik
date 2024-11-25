@@ -10,3 +10,38 @@
 #+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
 # #+reveal_extra_attr: style="color:red"
 #+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Newtons love
+#+attr_html: :height 500px
+[[./img/Newton_portrait.jpg]]
+
+** N1: Newtons 1. lov
+** N2: Newtons 2. lov
+** N3: Newtons 3. lov
+
+** Mulige forsøg
+*** Bil på luftpudebane Newtons 2. lov
+side 178
+*** Lodret fald med luftmodstand
+side 181
+* Forskellige kræfter
+
+** Mulige forsøg
+*** Måling af tyngdekraften
+side 131
+*** Undersøgelse af elastikker (hookes lov)
+side 140
+*** Friktionskræfter
+side 141
+*** Newtons 3. lov
+side 184
+* Tryk og opdrift 
+** Mulige forsøg
+*** Archimedess lov
+side 155 eller ballonforløbet fra vibenshus.
+*** Tryk i en væskesøjle
+side 161
+* Impuls
+** Mulige forsøg
+*** Bevarelse af bevægelsemængde
+side 180
