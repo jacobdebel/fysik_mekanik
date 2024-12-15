@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 <div class="reveal">
@@ -17,14 +18,528 @@
 <section id="sec-title-slide">
 <h2>Dynamik</h2><h3>Forklaring af bevægelse</h3><h4>Jacob Debel</h4><h4>Fysik B</h4>
 </section>
-<section>
-<section id="slide-orgb6c34a1" data-background="">
-<h2 id="orgb6c34a1">Newtons love</h2>
 
-<div id="org549c63e" class="figure">
+<section>
+<section id="slide-org3ec2454" data-background="">
+<h2 id="org3ec2454">Newtons love</h2>
+
+<div id="org8774d72" class="figure">
 <p><img src="./img/Newton_portrait.jpg" alt="Newton_portrait.jpg" height="500px" />
 </p>
 </div>
+
+</section>
+<section id="slide-org9e9a7f0" data-background="">
+<h3 id="org9e9a7f0">N1: Newtons 1. lov</h3>
+<div style="font-size: 60%;">
+<blockquote>
+<p>
+Et objekt, der ikke er påvirket af en kraft, vil enten fortsætte i en jævn bevægelse eller ligge stille.
+</p>
+</blockquote>
+
+
+<div id="orgc7d44d1" class="figure">
+<p><img src="./img/curling.webp" alt="curling.webp" height="300px" />
+</p>
+</div>
+<div style="font-size: 60%;">
+<p class="fragment (appear)">
+Friktionen mellem is og curlingsten er <i>næsten</i> nul. Derfor er der ingen vandret kraft, som påvirker stenen, og stenen fortsætter i en jævn bevægelse
+</p>
+</div>
+</div>
+
+</section>
+<section id="slide-org4e0a89d" data-background="">
+<h3 id="org4e0a89d">N2: Newtons 2. lov</h3>
+<div style="font-size: 60%;">
+<blockquote>
+<p>
+Hvis den <i>resulterende kraft</i> på en genstand med massen \(m\) er \(\vec{F}_\text{res}\), vil genstanden bevæge sig med <i>accelerationen</i> \(\vec{a}_\text{res}\) bestemt ved ligningen
+</p>
+
+<p>
+\[\vec{F}_\text{res} = m \cdot \vec{a}\,.\]
+</p>
+</blockquote>
+
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<p>
+<b>Den resulterende kraft</b>
+</p>
+
+<ul>
+<li>Summen af alle kræfter regnet som vektorer (eller med fortegn).
+\[\vec{F}_\text{res} = \Sigma_i \vec{F}_i = \vec{F}_1 +\vec{F}_2 + \dots\]</li>
+
+</ul>
+</div>
+
+<div>
+
+<div id="orgb441a2f" class="figure">
+<p><img src="./img/friktionskraefter_frit_legeme_diagram.png" alt="friktionskraefter_frit_legeme_diagram.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section id="slide-org7837160" data-background="">
+<h3 id="org7837160">N2: Newtons 2. lov</h3>
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+
+<div id="org1079a88" class="figure">
+<p><img src="./img/N2_1.jpg" alt="N2_1.jpg" height="300px" />
+</p>
+</div>
+</div>
+
+<div>
+
+<div id="org77f2115" class="figure">
+<p><img src="./img/N2_2.jpg" alt="N2_2.jpg" height="500px" />
+</p>
+</div>
+</div>
+</div>
+
+</section>
+<section id="slide-org46e699a" data-background="">
+<h3 id="org46e699a">N2: Newtons 2. lov</h3>
+
+<div id="orge446870" class="figure">
+<p><img src="./img/n2_luftmodstand.png" alt="n2_luftmodstand.png" />
+</p>
+</div>
+</section>
+<section id="slide-orgc32a120" data-background="">
+<h3 id="orgc32a120">N3: Newtons 3. lov</h3>
+<div style="font-size: 60%;">
+<blockquote>
+<p>
+<b>Aktion er lig reaktion</b>
+</p>
+
+<p>
+Til enhver kraft fra et legeme A på et legeme B svarer en lige så stor og modsatrettet kraft fra B på A.
+</p>
+</blockquote>
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+
+<div id="org63641a1" class="figure">
+<p><img src="./img/n3_svoemning.jpg" alt="n3_svoemning.jpg" />
+</p>
+</div>
+</div>
+
+<div>
+
+<div id="orgaae484e" class="figure">
+<p><img src="./img/Newtons-Third-Law.jpg" alt="Newtons-Third-Law.jpg" height="300px" />
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</section>
+<section id="slide-org5abee84" data-background="">
+<h3 id="org5abee84">Opgaver</h3>
+<div style="font-size: 60%;">
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<p>
+<b>Opgave 1</b>
+</p>
+
+<p>
+En bil på 1800 kg accelerer fra hvile til 100 km/h på 9.4 s.
+</p>
+
+<ol>
+<li>Hvor stor er bilens acceleration?</li>
+<li>Bestem den resulterende kraft på bilen.</li>
+
+</ol>
+</div>
+
+<div>
+<p>
+<b>Opgave 2</b>
+</p>
+
+<p>
+En pram trækkes af to slæbebåde. Den ene trækker med 240 kN mod nord og den anden med 350 kN mod nordvest.
+</p>
+
+<ol>
+<li>Tegn en skitse af situationen set fra luften.</li>
+<li>Beregn størrelsen af den resulterende kraft fra slæbebådene.</li>
+
+</ol>
+</div>
+</div>
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org128a8fb" data-background="">
+<h2 id="org128a8fb">Forskellige kræfter</h2>
+<div style="font-size: 60%;">
+<div style="display: grid; grid-template-columns: 50% auto;">
+<div>
+
+<div id="org2ef6f99" class="figure">
+<p><img src="./img/diverser_kraefter_gpt.webp" alt="diverser_kraefter_gpt.webp" />
+</p>
+</div>
+</div>
+
+<div>
+<ul>
+<li>Chatgpt er altså ikke nogen haj til fysik&#x2026; Vi må hellere gøre det selv.</li>
+
+</ul>
+<div style="font-size: 60%;">
+<p>
+(Her er lidt af min prompt)
+</p>
+<ul>
+<li>Jeg er gymnasielærer og underviser i fysik. Du skal i dag være min gode kollega, som også er ekspert i fysik. Vi skal sammen finde på nogle gode billeder, som viser forskellige former for kræfter inden for fysik.</li>
+<li>Hvordan kan man kombinere normalkraft, tyngdekraft, friktion og luftmodstand i et billede?</li>
+<li>Det var en god idé. Jeg vil gerne have dig til at tegne alt dette som en skitse, som var den taget fra en fysikbog. Alle de nævnte kræfter skal angives med vektorpile, og de skal have de korrekte angrebspunkter.</li>
+
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</section>
+<section id="slide-org19b4c8f" data-background="">
+<h3 id="org19b4c8f">Vi prøver lige selv</h3>
+
+<div id="orgbef2a78" class="figure">
+<p><img src="./img/drive-downhill_flopped.jpg" alt="drive-downhill_flopped.jpg" height="400px" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org4f88cbf" data-background="">
+<h2 id="org4f88cbf">Tyngdekraft</h2>
+
+<div id="org932f2c4" class="figure">
+<p><img src="./img/tyngdekraft.png" alt="tyngdekraft.png" height="500px" />
+</p>
+</div>
+</section>
+<section id="slide-org0f12a33" data-background="">
+<h3 id="org0f12a33">Tyngdekraft</h3>
+<div style="font-size: 60%;">
+<div style="display: grid; grid-template-columns: auto 60%;">
+<div>
+<blockquote>
+<div>
+\begin{align*}
+\vec{F}_{t} &= m \cdot \vec{g} \quad \text{med retning} \\
+F_t &= m \cdot g \quad \text{kun størrelsen}
+\end{align*}
+
+</div>
+</blockquote>
+<ul>
+<li>\(g= 9.82\, m/s^2\) ved i Danmark.</li>
+<li>\(g= 9.78\, m/s^2\) ved ækvator.</li>
+<li>\(g= 9.83\, m/s^2\) på Nord- eller Sydpolen.</li>
+<li>Tegnes som en vektor med <i>angrebspunkt</i> i <i>massemidtpunktet</i> og peger "nedad" mod Jordens centrum(massemidtpunkt).</li>
+
+</ul>
+</div>
+
+<div>
+
+<div id="orgf65812f" class="figure">
+<p><img src="./img/tyngdekraft_basejumper.png" alt="tyngdekraft_basejumper.png" width="400px" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section id="slide-org3580159" data-background="">
+<h3 id="org3580159">Opgaver</h3>
+<div style="font-size: 50%;">
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<p>
+<b>Opgave 1</b>
+</p>
+
+<ul>
+<li>Vis, vha omregninger, at \(\frac{N}{kg} = \frac{m}{s^2}\).</li>
+
+</ul>
+
+
+<p>
+<b>Opgave 2</b>
+</p>
+
+<ul>
+<li>Beregn størrelsen af tyngdekraften på dig selv (og din sidemand m/k).</li>
+
+</ul>
+</div>
+
+<div>
+<p>
+<b>Opgave 3 (opg 8.4 i basisfysik B s. 143)</b>
+</p>
+
+<p>
+Du vil gerne vide, hvor stærk du er. Derfor beder du onkel Allan om at stille sig på badevægten. Vægten viser 102 kg. Allen er ikke så høj, så du hår et godt greb under hans arme og løfter så meget, du overhovedet kan. Herved når vægten ned på 54.0 kg. <b>Angiv størrelse og retning for følgende kræfter:</b>
+</p>
+
+<ol>
+<li>Den kraft, vægten påvirker Allan med.</li>
+<li>Den kraft, vægten påvirker Allan med, når du løfter allermest.</li>
+<li>Den kraft, du maksimalt klarer at løfte med.</li>
+<li>Den tyngdekraft, der påvirker Allan, når du løfter.</li>
+<li>Tegn et vektordiagram over de kræfter, der påvirker Allan, når du løfter ham maksimalt. Lad Allan være en lille cirkel i diagrammet.</li>
+
+</ol>
+</div>
+</div>
+
+</div>
+
+</section>
+<section id="slide-orgd24ebf3" data-background="">
+<h3 id="orgd24ebf3">OMG - Oh My 9.82 m/s<sup>2</sup></h3>
+
+<div id="orgc513046" class="figure">
+<p><img src="./img/tyngdeacceleration_forsoeg.jpg" alt="tyngdeacceleration_forsoeg.jpg" height="570px" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3c52bf4" data-background="">
+<h2 id="org3c52bf4">Snorkræfter</h2>
+<div style="font-size: 60%;">
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<ul>
+<li>Snore kan bruges til at overføre kræfter mellem objekter.</li>
+<li>Spændingen/kraften i en snor, er den samme alle steder i snoren og kan gå i begge retninger.</li>
+
+</ul>
+</div>
+
+<div>
+
+<div id="org06b89ee" class="figure">
+<p><img src="./img/snorkraefter_2.png" alt="snorkraefter_2.png" />
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<section id="slide-org1e95ed1" data-background="">
+<h3 id="org1e95ed1">Snorkræfter</h3>
+<div style="font-size: 60%;">
+<div style="display: grid; grid-template-columns: 60% auto;">
+<div>
+
+<div id="orge2f8d8b" class="figure">
+<p><img src="./img/snorkraefter_eksempel.png" alt="snorkraefter_eksempel.png" />
+</p>
+</div>
+</div>
+
+<div>
+
+<div id="orgb6de527" class="figure">
+<p><img src="./img/snorkraefter.png" alt="snorkraefter.png" height="400px" />
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<section id="slide-orgf74d133" data-background="">
+<h3 id="orgf74d133">Opgaver</h3>
+<div style="font-size: 40%;">
+<div style="display: grid; grid-template-columns: auto auto;">
+<div>
+<p>
+<b>Opgave 1</b>
+</p>
+
+<p>
+En gadelampe hænger i to wirer som vist på figuren.
+Vejens bredde er 8 m, og hver af de to wirer er 4.5 m lange. Lampen vejer 32 kg.
+</p>
+
+<div id="orgaeef536" class="figure">
+<p><img src="./img/gadelampe_opgave.png" alt="gadelampe_opgave.png" width="300px" />
+</p>
+</div>
+
+<ol>
+<li>Indtegn de givne størrelser på figuren. Indtegn også de kræfter som virker på lampen.</li>
+<li>Bestem højdeforskellen mellem lampen og ophængspunkterne.</li>
+<li>Beregn størrelsen af samtlige kræfter, som påvirker lampen.</li>
+
+</ol>
+</div>
+
+<div>
+<p>
+<b>Opgave 2</b>
+</p>
+
+<ul>
+<li>Lygten har <i>vægten</i> \(w\), altså tyngdekraften \(F_t = w\).</li>
+<li>Bestem snorkræfterne i snor A og B i begge tilfælde (a) og (b) i størrelser af \(w\).</li>
+
+</ul>
+
+
+<div id="org6e3b19a" class="figure">
+<p><img src="./img/snorkraefter_university_physics_01.png" alt="snorkraefter_university_physics_01.png" width="350px" />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section id="slide-orge3437a6" data-background="">
+<h3 id="orge3437a6">Opgaver</h3>
+<div style="font-size: 60%;">
+<p>
+<b>Opgave 3</b>
+</p>
+<div class="column" style="float:left; width: 50%">
+<p>
+Vægten af klodsen er \(w =F_t = 60.0N\).
+</p>
+
+<ol>
+<li>Hvad er <i>snorkraften</i> i den diagonale snor?</li>
+<li>Find længderne(størrelserne) af de vandrette kræfter \(\vec{F}_1\) og \(\vec{F}_2\), så systemet holdes stilles i den viste position.</li>
+
+</ol>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="orge96fd56" class="figure">
+<p><img src="./img/snorkraefter_university_physics.png" alt="snorkraefter_university_physics.png" height="300px" />
+</p>
+</div>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3963250" data-background="">
+<h2 id="org3963250">Normalkraft</h2>
+</section>
+</section>
+<section>
+<section id="slide-org53a72dc" data-background="">
+<h2 id="org53a72dc">Friktionskræfter</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgd67f4b2" data-background="">
+<h2 id="orgd67f4b2">Luftmodstand</h2>
+</section>
+</section>
+<section>
+<section id="slide-org022f8f2" data-background="">
+<h2 id="org022f8f2">Hookes lov</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgdb3b892" data-background="">
+<h2 id="orgdb3b892">Opdrift</h2>
+
+<div id="org7918fc7" class="figure">
+<p><img src="./img/opdrift_intro.jpg" alt="opdrift_intro.jpg" height="450px" />
+</p>
+</div>
+
+<div style="font-size: 60%;">
+<ul>
+<li class="fragment appear">Vi vender tilbage til dette, når vi ved noget om <b>tryk</b>.</li>
+
+</ul>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgebdc6f4" data-background="">
+<h2 id="orgebdc6f4">Tryk og opdrift</h2>
+<div class="outline-text-2" id="text-orgebdc6f4">
+</div>
+</section>
+<section id="slide-org5c02503" data-background="">
+<h3 id="org5c02503">Mulige forsøg</h3>
+<div class="outline-text-3" id="text-org5c02503">
+</div>
+</section>
+<section id="slide-org18b6822" data-background="">
+<h4 id="org18b6822">Archimedess lov</h4>
+<p>
+side 155 eller ballonforløbet fra vibenshus.
+</p>
+</section>
+<section id="slide-org7d60dfa" data-background="">
+<h4 id="org7d60dfa">Tryk i en væskesøjle</h4>
+<p>
+side 161
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org6d9e905" data-background="">
+<h2 id="org6d9e905">Impuls</h2>
+<div class="outline-text-2" id="text-org6d9e905">
+</div>
+</section>
+<section id="slide-orgf11af9b" data-background="">
+<h3 id="orgf11af9b">Mulige forsøg</h3>
+<div class="outline-text-3" id="text-orgf11af9b">
+</div>
+</section>
+<section id="slide-org70a9fe7" data-background="">
+<h4 id="org70a9fe7">Bevarelse af bevægelsemængde</h4>
+<p>
+side 180
+</p>
 </section>
 </section>
 </div>

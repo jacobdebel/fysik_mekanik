@@ -16,25 +16,285 @@
 [[./img/Newton_portrait.jpg]]
 
 ** N1: Newtons 1. lov
+#+reveal_html: <div style="font-size: 60%;">
+#+begin_quote
+Et objekt, der ikke er påvirket af en kraft, vil enten fortsætte i en jævn bevægelse eller ligge stille.
+#+end_quote
+
+#+attr_html: :height 300px
+[[./img/curling.webp]]
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+Friktionen mellem is og curlingsten er /næsten/ nul. Derfor er der ingen vandret kraft, som påvirker stenen, og stenen fortsætter i en jævn bevægelse
+#+reveal_html: </div>
+#+reveal_html: </div>
+
 ** N2: Newtons 2. lov
+#+reveal_html: <div style="font-size: 60%;">
+#+begin_quote
+Hvis den /resulterende kraft/ på en genstand med massen $m$ er $\vec{F}_\text{res}$, vil genstanden bevæge sig med /accelerationen/ $\vec{a}_\text{res}$ bestemt ved ligningen
+
+$$\vec{F}_\text{res} = m \cdot \vec{a}\,.$$
+#+end_quote
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Den resulterende kraft*
+
+- Summen af alle kræfter regnet som vektorer (eller med fortegn).
+  $$\vec{F}_\text{res} = \Sigma_i \vec{F}_i = \vec{F}_1 +\vec{F}_2 + \dots$$ 
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/friktionskraefter_frit_legeme_diagram.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** N2: Newtons 2. lov
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :height 300px
+[[./img/N2_1.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :height 500px
+[[./img/N2_2.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** N2: Newtons 2. lov
+[[./img/n2_luftmodstand.png]]
 ** N3: Newtons 3. lov
+#+reveal_html: <div style="font-size: 60%;">
+#+begin_quote
+*Aktion er lig reaktion*
 
-** Mulige forsøg
-*** Bil på luftpudebane Newtons 2. lov
-side 178
-*** Lodret fald med luftmodstand
-side 181
+Til enhver kraft fra et legeme A på et legeme B svarer en lige så stor og modsatrettet kraft fra B på A.
+#+end_quote
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/n3_svoemning.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :height 300px
+[[./img/Newtons-Third-Law.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opgave 1*
+
+En bil på 1800 kg accelerer fra hvile til 100 km/h på 9.4 s.
+
+1. Hvor stor er bilens acceleration?
+2. Bestem den resulterende kraft på bilen.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 2*
+
+En pram trækkes af to slæbebåde. Den ene trækker med 240 kN mod nord og den anden med 350 kN mod nordvest.
+
+1. Tegn en skitse af situationen set fra luften.
+2. Beregn størrelsen af den resulterende kraft fra slæbebådene.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+# ** Mulige forsøg
+# *** Bil på luftpudebane Newtons 2. lov
+# side 178
+# *** Lodret fald med luftmodstand
+# side 181
 * Forskellige kræfter
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+[[./img/diverser_kraefter_gpt.webp]]
+#+reveal_html: </div>
 
-** Mulige forsøg
-*** Måling af tyngdekraften
-side 131
-*** Undersøgelse af elastikker (hookes lov)
-side 140
-*** Friktionskræfter
-side 141
-*** Newtons 3. lov
-side 184
+#+reveal_html: <div>
+- Chatgpt er altså ikke nogen haj til fysik... Vi må hellere gøre det selv.
+#+reveal_html: <div style="font-size: 60%;">
+(Her er lidt af min prompt)
+- Jeg er gymnasielærer og underviser i fysik. Du skal i dag være min gode kollega, som også er ekspert i fysik. Vi skal sammen finde på nogle gode billeder, som viser forskellige former for kræfter inden for fysik.
+- Hvordan kan man kombinere normalkraft, tyngdekraft, friktion og luftmodstand i et billede?
+- Det var en god idé. Jeg vil gerne have dig til at tegne alt dette som en skitse, som var den taget fra en fysikbog. Alle de nævnte kræfter skal angives med vektorpile, og de skal have de korrekte angrebspunkter.
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Vi prøver lige selv
+#+attr_html: :height 400px
+[[./img/drive-downhill_flopped.jpg]]
+
+* Tyngdekraft
+#+attr_html: :height 500px
+[[./img/tyngdekraft.png]]
+** Tyngdekraft
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto 60%;">
+#+reveal_html: <div>
+#+begin_quote
+\begin{align*}
+\vec{F}_{t} &= m \cdot \vec{g} \quad \text{med retning} \\
+F_t &= m \cdot g \quad \text{kun størrelsen}
+\end{align*}
+#+end_quote
+- $g= 9.82\, m/s^2$ ved i Danmark.
+- $g= 9.78\, m/s^2$ ved ækvator.
+- $g= 9.83\, m/s^2$ på Nord- eller Sydpolen.
+- Tegnes som en vektor med /angrebspunkt/ i /massemidtpunktet/ og peger "nedad" mod Jordens centrum(massemidtpunkt).
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 400px
+[[./img/tyngdekraft_basejumper.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opgave 1*
+
+- Vis, vha omregninger, at $\frac{N}{kg} = \frac{m}{s^2}$.
+
+
+*Opgave 2*
+
+- Beregn størrelsen af tyngdekraften på dig selv (og din sidemand m/k).
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 3 (opg 8.4 i basisfysik B s. 143)*
+
+Du vil gerne vide, hvor stærk du er. Derfor beder du onkel Allan om at stille sig på badevægten. Vægten viser 102 kg. Allen er ikke så høj, så du hår et godt greb under hans arme og løfter så meget, du overhovedet kan. Herved når vægten ned på 54.0 kg. *Angiv størrelse og retning for følgende kræfter:*
+
+1. Den kraft, vægten påvirker Allan med.
+2. Den kraft, vægten påvirker Allan med, når du løfter allermest.
+3. Den kraft, du maksimalt klarer at løfte med.
+4. Den tyngdekraft, der påvirker Allan, når du løfter.
+5. Tegn et vektordiagram over de kræfter, der påvirker Allan, når du løfter ham maksimalt. Lad Allan være en lille cirkel i diagrammet.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** OMG - Oh My 9.82 m/s^{2}
+#+attr_html: :height 570px
+[[./img/tyngdeacceleration_forsoeg.jpg]]
+
+* Snorkræfter
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+- Snore kan bruges til at overføre kræfter mellem objekter.
+- Spændingen/kraften i en snor, er den samme alle steder i snoren og kan gå i begge retninger.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/snorkraefter_2.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Snorkræfter
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+[[./img/snorkraefter_eksempel.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :height 400px
+[[./img/snorkraefter.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+** Opgaver
+#+reveal_html: <div style="font-size: 40%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opgave 1*
+
+En gadelampe hænger i to wirer som vist på figuren.
+Vejens bredde er 8 m, og hver af de to wirer er 4.5 m lange. Lampen vejer 32 kg.
+#+attr_html: :width 300px
+[[./img/gadelampe_opgave.png]]
+
+1. Indtegn de givne størrelser på figuren. Indtegn også de kræfter som virker på lampen.
+2. Bestem højdeforskellen mellem lampen og ophængspunkterne.
+3. Beregn størrelsen af samtlige kræfter, som påvirker lampen.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 2*
+
+- Lygten har /vægten/ $w$, altså tyngdekraften $F_t = w$.
+- Bestem snorkræfterne i snor A og B i begge tilfælde (a) og (b) i størrelser af $w$.
+
+#+attr_html: :width 350px
+[[./img/snorkraefter_university_physics_01.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+*Opgave 3*
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+Vægten af klodsen er $w =F_t = 60.0N$.
+
+1. Hvad er /snorkraften/ i den diagonale snor?
+2. Find længderne(størrelserne) af de vandrette kræfter $\vec{F}_1$ og $\vec{F}_2$, så systemet holdes stilles i den viste position.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :height 300px
+[[./img/snorkraefter_university_physics.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Normalkraft
+* Friktionskræfter
+* Luftmodstand
+* Hookes lov
+* Opdrift
+#+attr_html: :height 450px
+[[./img/opdrift_intro.jpg]]
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Vi vender tilbage til dette, når vi ved noget om *tryk*.
+#+reveal_html: </div>
+
+# ** Mulige forsøg
+# *** Måling af tyngdekraften
+# side 131
+# *** Undersøgelse af elastikker (hookes lov)
+# side 140
+# *** Friktionskræfter
+# side 141
+# *** Newtons 3. lov
+# side 184
 * Tryk og opdrift 
 ** Mulige forsøg
 *** Archimedess lov
