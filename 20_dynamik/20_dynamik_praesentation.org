@@ -25,14 +25,14 @@ Et objekt, der ikke er påvirket af en kraft, vil enten fortsætte i en jævn be
 [[./img/curling.webp]]
 #+reveal_html: <div style="font-size: 60%;">
 #+attr_reveal: :frag (appear)
-Friktionen mellem is og curlingsten er /næsten/ nul. Derfor er der ingen vandret kraft, som påvirker stenen, og stenen fortsætter i en jævn bevægelse
+Friktionen mellem is og curlingsten er /næsten/ nul. Derfor er der ingen vandret kraft, som påvirker stenen, og stenen fortsætter i en jævn bevægelse.
 #+reveal_html: </div>
 #+reveal_html: </div>
 
 ** N2: Newtons 2. lov
 #+reveal_html: <div style="font-size: 60%;">
 #+begin_quote
-Hvis den /resulterende kraft/ på en genstand med massen $m$ er $\vec{F}_\text{res}$, vil genstanden bevæge sig med /accelerationen/ $\vec{a}_\text{res}$ bestemt ved ligningen
+Hvis den /resulterende kraft/ på en genstand med massen $m$ er $\vec{F}_\text{res}$, vil genstanden bevæge sig med /accelerationen/ $\vec{a}$ bestemt ved ligningen
 
 $$\vec{F}_\text{res} = m \cdot \vec{a}\,.$$
 #+end_quote
@@ -83,9 +83,7 @@ Til enhver kraft fra et legeme A på et legeme B svarer en lige så stor og mods
 [[./img/Newtons-Third-Law.jpg]]
 #+reveal_html: </div>
 #+reveal_html: </div>
-
 #+reveal_html: </div>
-
 
 ** Opgaver
 #+reveal_html: <div style="font-size: 60%;">
@@ -101,6 +99,9 @@ En bil på 1800 kg accelerer fra hvile til 100 km/h på 9.4 s.
 
 #+reveal_html: <div>
 *Opgave 2*
+
+#+attr_html: :height 200px
+[[./img/pram.webp]]
 
 En pram trækkes af to slæbebåde. Den ene trækker med 240 kN mod nord og den anden med 350 kN mod nordvest.
 
@@ -274,7 +275,124 @@ Vægten af klodsen er $w =F_t = 60.0N$.
 #+reveal_html: </div>
 
 * Normalkraft
+#+reveal_html: <div style="font-size: 60%;">
+Eller /kontaktkraft/ i basisfysik B.
+
+#+attr_html: :height 400px
+[[./img/normalkraft.jpg]]
+#+reveal_html: </div>
+** En enkelt klods
+#+reveal_html: <div style="font-size: 60%;">
+[[./img/normalkraft_1_boks.jpg]]
+
+- Indtegn de virkende kræfter.
+#+reveal_html: </div>
+
+** En enkelt klods
+#+reveal_html: <div style="font-size: 60%;">
+[[./img/normalkraft_1_boks_kraefter_indtegnet.jpg]]
+#+reveal_html: </div>
+
+** To klodser
+#+reveal_html: <div style="font-size: 60%;">
+[[./img/normalkraft_2_bokse.jpg]]
+
+- Indtegn de virkende kræfter på den nederste nederste klods.
+#+reveal_html: </div>
+
+** To klodser
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_html: :height 500px
+[[./img/normalkraft_2_bokse_kraefter_indtegnet.jpg]]
+#+reveal_html: </div>
+
+** Bordet tipper
+[[./img/normalkraft_norsk_uden_kraefter.png]]
+
+#+attr_reveal: :frag (appear)
+- Indtegn lige tyngdekraften og normalkraften i de tre tilfælde.
+ 
+** Bordet tipper
+#+reveal_html: <div style="font-size: 60%;">
+[[./img/normalkraft_norsk.png]]
+
+#+attr_reveal: :frag (appear)
+- Hvad sker der med længden af de to kræfter, når bordet vipper mere og mere?
+- Hvilken vej går den /resulterende kraft/, hvis der ikke er nogen friktion mellem bord og bog?
+#+reveal_html: </div>
+** Bordet tipper
+#+reveal_html: <div style="font-size: 60%;">
+[[./img/normalkraft_norsk_vinkel_med-vandret.png]]
+#+attr_reveal: :frag (appear)
+- Hvornår er normalkraften lige så stor (men modsatrettet) som tyngdekraften?
+- Hvornår er normalkraften nul?
+- Opstil en sammenhæng mellem normalkraftens størrelse og vinklen med vandret?
+#+reveal_html: </div>
+
 * Friktionskræfter
+Træk eller skub?
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 400px
+[[./img/pushbox2_1.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 420px
+[[./img/pushblock2_2.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Ingen forskel på is (nul friktion).
+- Men med friktion er der forskel.
+#+reveal_html: </div>
+
+** Coulombs friktionslov
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+#+begin_quote
+$$\vec{F}_\text{gnid} = \mu \cdot \vec{F}_N$$
+#+end_quote
+- $\vec{F}_\text{gnid}$ er gnidnings- eller friktionskraften
+- $\vec{F}_N$ er normalkraften.
+- $\mu$ er en enhedsløs gnidnings- eller friktionskoefficient.
+#+reveal_html: </div>
+#+reveal_html: <div>
+[[./img/friction_box.jpg]]
+
+[[./img/friktion_grundlaeggende_fysik.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Statisk og dynamisk
+#+attr_html: :width 600px
+[[./img/friktion_statisk_dynamisk.png]]
+#+reveal_html: <div style="font-size: 60%;">
+- $\mu_s > \mu_d$
+- Når et legeme ligger står stille, er $F_\text{gnid} \leq \mu_s \cdot F_N$.
+- Når et legeme ligger er i bevægelse, er $F_\text{gnid} = \mu_d \cdot F_N$.
+#+reveal_html: </div>
+
+** Friktionskoefficienter
+[[./img/friktionskoefficienter.jpg]]
+** Opgaver
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/friktion_opg_1.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/friktion_opg_2.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Et lille forsøg
+#+attr_html: :height 550px
+[[./img/friktionsforsoeg.jpg]]
 * Luftmodstand
 * Hookes lov
 * Opdrift
