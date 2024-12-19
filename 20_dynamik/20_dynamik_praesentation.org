@@ -197,7 +197,7 @@ Du vil gerne vide, hvor stærk du er. Derfor beder du onkel Allan om at stille s
 
 #+reveal_html: </div>
 
-** OMG - Oh My 9.82 m/s^{2}
+** OMg - Oh My 9.82 m/s^{2}
 #+attr_html: :height 570px
 [[./img/tyngdeacceleration_forsoeg.jpg]]
 
