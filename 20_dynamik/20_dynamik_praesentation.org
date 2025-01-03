@@ -394,6 +394,121 @@ $$\vec{F}_\text{gnid} = \mu \cdot \vec{F}_N$$
 #+attr_html: :height 550px
 [[./img/friktionsforsoeg.jpg]]
 * Luftmodstand
+[[./img/modvind.gif]]
+
+** Hvornår er det hårdest at forøge sin fart?
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+- Lav fart?
+- Middel fart?
+- Høj fart?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/forskellige_cykler.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+attr_reveal: :frag (appear)
+- Hvad kan I gøre for at øge jeres fart alligevel?
+#+reveal_html: </div>
+
+** Forklaringen
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+Luftmodstand /modelleres/ typisk på følgende måde:
+
+$$F_\text{luftmodstand} = \frac{1}{2} \cdot c_w \cdot \rho \cdot  A \cdot v^2\,,$$
+hvor
+
+- $\rho$ er luftens densitet.
+- $A$ er tværsnitsarealet/skyggearealet som luften "ser".
+- $v$ er farten.
+- $c_w$ er /formfaktoren/, som afhænger af faconen og materialevalg.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+begin_export html
+<iframe width="329" height="585" src="https://www.youtube.com/embed/sZhgZosEdIA" title="Drag Force Cross Sectional Area Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Formfaktoren
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Den simple*
+
+[[./img/cw_vaerdier.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Den svære*
+
+[[./img/Typical-drag-coefficients-for-regular-3-D-objects.png]]
+
+Afhænger af bl.a. /Reynolds tal/, som igen bl.a. afhænger af densitet, flow speed, og viskositeter.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgave
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+På billedet ses en speciel cykel, hvor $c_w$ er presset ned på 0.1, og hvor tværsnitsarealet er 0.4 $m^2$.
+
+1. Beregn luftmodstanden på cyklen ved en fart på 60 km/h.
+
+   Opskriv formler og forklar. Udfør beregningerner.
+
+2. Sammenlign med den luftmodstand, som I selv oplever, når I cykler til daglig.
+   
+   Opskriv formler og forklar. Find selv relevante størrelser for $c_w$ og tværsnitsareal. Udfør beregninger og kommenter.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/luftmodstandsopgave.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+** Hvem er det værst for?
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/homer_falling.webp]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/falling_bug.webp]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+*** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+1. Tegn først to skitser. En af Homer og en af en bille, som falder ned.
+2. Opskriv de kræfter, som virker på Homer og billen, og indtegn dem på jeres skitser.
+3. Forklar, hvorfor Homer og billen efter nogen tid opnår en konstant hastighed (/terminal velocity/).
+4. Beregn den terminale hastighed for hhv. Homer og for billen.
+
+   I skal selv estimere de relevante værdier for Homer, billen og luften. Det kunne f.eks. være masse, tværsnitsareal, $c_w$​-værdi, og densitet.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/homer_falling.webp]]
+
+[[./img/falling_bug.webp]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
 * Hookes lov
 * Opdrift
 #+attr_html: :height 450px
