@@ -390,6 +390,23 @@ $$\vec{F}_\text{gnid} = \mu \cdot \vec{F}_N$$
 #+reveal_html: </div>
 #+reveal_html: </div>
 
+** ekstraopgave
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+I bagagerummet på en varevogn står en trækasse. Mellem trækassen og bagagerummet er gnidningskoefficienten 0.2
+
+1. Beregn den største acceleration, som varevogen kan foretage uden at kassen bevæger sig relativt til varevognens gulv.
+2. Hvor lang tid skal varevognen bruge på at accelerere fra 0 til 100 km/h i denne situation?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/varevogn_med_boks.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
 ** Et lille forsøg
 #+attr_html: :height 550px
 [[./img/friktionsforsoeg.jpg]]
@@ -510,6 +527,60 @@ På billedet ses en speciel cykel, hvor $c_w$ er presset ned på 0.1, og hvor tv
 
 
 * Hookes lov
+[[./img/tigger-bouncing.gif]]
+** Hookes lov
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+
+$$F_{fj} = - k \cdot x\,,$$
+- $k$ kaldes /fjederkonstanten/.
+- $x$ er /deformationen/.
+- Det negative fortegn skyldes, at deformation og kraften er modstat rettede.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/Hookes_lov.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opgave 1*
+
+#+attr_html: :width 200px
+[[./img/hookes_lov_opgave_1.png]]
+
+Et lod med massen $m=2.44 kg$ hænger i en fjeder med ukendt fjederkonstant. I sin hviletilstand er fjederen 7.2 cm, mens den er 8.9 cm lang, når loddet hænger i den.
+
+- Bestem fjederkonstanten for fjederen.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 2*
+
+Et lod med massen 500 g hænger stille i en fjeder med fjederkonstanten 40.0 N/m.
+
+- Beregn størrelsen af de kræfter, der virker på loddet.
+- Beregn fjederens forlængelse.
+
+*Opgave 3*
+
+Et lod med ukendt masse hænger stille i en fjeder med fjederkonstant 95.0 N/m. Fjederens forlængelse viser sig at være 8.79 cm.
+
+- Bestem loddets masse.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Eksperiment s. 140
+#+attr_html: :height 500px
+[[./img/hookes_lov_eksperiment.jpg]]
+
 * Opdrift
 #+attr_html: :height 450px
 [[./img/opdrift_intro.jpg]]
