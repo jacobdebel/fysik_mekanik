@@ -328,6 +328,13 @@ Eller /kontaktkraft/ i basisfysik B.
 - Hvornår er normalkraften nul?
 - Opstil en sammenhæng mellem normalkraftens størrelse og vinklen med vandret?
 #+reveal_html: </div>
+** Geogebra
+#+begin_export html
+<iframe scrolling="no" title="Normalkraft og vinkel" src="https://www.geogebra.org/material/iframe/id/hz6g7etg/width/800/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="500px" style="border:0px;"> </iframe>
+#+end_export
+#+reveal_html: <div style="font-size: 60%;">
+- Flyt punktet B og se, hvad der sker med normalkraften.
+#+reveal_html: </div>
 
 * Friktionskræfter
 Træk eller skub?
