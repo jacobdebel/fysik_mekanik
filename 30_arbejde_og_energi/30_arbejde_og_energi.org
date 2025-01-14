@@ -1,0 +1,441 @@
+#+title: Arbejde og energi
+#+subtitle: Mekanik
+#+author: Jacob Debel
+#+date: Fysik B & A
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Arbejde og effekt
+  
+** Arbejde
+   
+Lægmandssprog:
+
+#+begin_quote
+Arbejde er lig kraft gange vej.
+#+end_quote
+
+#+reveal: split
+Matematisk sprog:
+
+$$\boxed{A = \vec{F} \cdot \vec{s}}$$
+
+#+attr_reveal: :frag (appear)
+- Husk at der er tale om vektorer.
+- Prikken er et skalarprodukt (prikprodukt)
+  
+#+reveal: split
+
+Eksempel
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_13-57-37_csm_366_mand_med_slaede_bedbe99dc7.png]]
+
+#+attr_reveal: :frag (appear)
+- $A = \vec{F} \cdot \vec{s}$
+- $A = F \cdot s \cdot \cos(\phi)$
+
+#+reveal: split
+Eksempel
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_14-06-35_csm_367_Klods_1_350px_4fa104bf47.png]]
+
+- Hvad er $\phi$?
+  
+#+reveal: split
+Eksempel
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_14-07-33_csm_368_Klods_2_350px_305d639ed3.png]]
+
+- Hvad er $\phi$?
+
+#+reveal: split
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_14-08-02_csm_369_Klods_3_350px_01_8740225f1a.png]]
+
+- Hvad er $\phi$?
+
+** Opgave 9.1.1
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_14-11-44_screenshot.png]]
+
+* Arbejde og energi
+  
+** Arbejde og energi
+
+Termodynamikkens 1. hovedsætning
+
+$$\Delta E = Q + A$$
+
+#+attr_reveal: :frag (appear)
+- Energi er evnen til at udføre arbejde.
+- Uden tilført varme er ændring i indre energi lig arbejde.
+
+* Effekt
+
+** Effekt
+
+#+attr_reveal: :frag (appear)
+$$P = \frac{\Delta E}{\Delta t}$$
+#+attr_reveal: :frag (appear)
+$$P = \frac{A}{\Delta t}$$
+#+attr_reveal: :frag (appear)
+$$P = \frac{F\cdot \Delta s}{\Delta t}$$
+
+#+reveal: split
+$$P = F\cdot \frac{\Delta s}{\Delta t}$$
+#+attr_reveal: :frag (appear)
+$$P = F\cdot \boxed{\frac{\Delta s}{\Delta t}}$$
+#+attr_reveal: :frag (appear)
+- Hvad er det nu det er?
+#+attr_reveal: :frag (appear)
+$$P = F\cdot \boxed{v}$$
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+En krafts effekt er altså kraftens størrelse gange med (øjebliks)-hastigheden.
+#+attr_reveal: :frag (appear)
+Gælder selvfølgelig også for vektorer.
+#+attr_reveal: :frag (appear)
+$$\boxed{P = \vec{F} \cdot \vec{v}}$$
+
+** Opgave 9.1.2
+
+#+attr_html: :width 600px
+[[file:img/2019-11-29_14-35-10_screenshot.png]]
+
+* Friktionskræfters arbejde
+
+** Friktionskræfters arbejde
+- Når tørre overflader gnider mod hinanden er friktionskraften altid modsat rettet bevægelsesretningen.
+
+#+attr_reveal: :frag (appear)
+$$\boxed{A_{\mu} = - \overrightarrow{F_{\mu}} \cdot \vec{s}}$$
+
+** Opgaver
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   *Opgave ?*
+   #+attr_html: :width 600px
+   [[file:img/2019-12-02_13-57-24_screenshot.png]]
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   *Opgave 9.3.1*
+   #+attr_html: :width 600px
+   [[file:img/2019-12-02_13-58-06_screenshot.png]]
+   #+reveal_html: </div>
+
+
+* Fjederkrafts arbejde
+** Fjederkrafts arbejde
+   $$\left| F_{fj}(x) \right|= k \cdot x$$
+   
+#+attr_html: :width 500px
+[[file:img/2019-12-02_14-03-01_csm_375_Kraftkurve_198px_07fb75b72e.png]]
+** Fjederkrafts arbejde
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_reveal: :frag (appear)
+   - Arbejde er lig kraft gange vej.
+   - Arbejde er lig arealet under grafen.
+   - $A_{fj}= \frac{1}{2} \cdot k \cdot x^2$
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :width 500px
+   [[file:img/2019-12-02_14-03-01_csm_375_Kraftkurve_198px_07fb75b72e.png]]
+   #+reveal_html: </div>
+
+** Kan det paneres?
+   #+BEGIN_EXPORT html
+   <iframe width="600" height="400" src="https://www.youtube.com/embed/0oFo5Byqzas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   #+END_EXPORT
+   
+** Kan det +paneres+ integreres?
+   #+reveal_html: <div style="font-size: 60%;">
+   #+reveal_html: <div class="column" style="float:left; width: 70%">
+   #+attr_reveal: :frag (appear)
+   $$A_{fj} = \int_{x_1}^{x_2} F_{fj} \,dx$$
+   #+attr_reveal: :frag (appear)
+   $$A_{fj} = \int_{0}^{x_0} k \cdot x \,dx$$
+   #+attr_reveal: :frag (appear)
+   $$A_{fj} = \left[ \frac{1}{2}\cdot k \cdot x^2 \right]_0^{x_0}= \frac{1}{2}\cdot k \cdot x_0^2- \frac{1}{2}\cdot k \cdot 0^{2}$$
+   #+attr_reveal: :frag (appear)
+   $$\boxed{A_{fj} = \frac{1}{2}\cdot k \cdot x_0^2}$$
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 30%">
+   #+attr_html: :width 400px
+   [[file:img/2019-12-02_15-55-34_csm_378_Kraftkurve_216px_a9de52c0fd.png]]
+   #+attr_html: :width 400px
+   [[file:img/2019-12-02_15-55-54_csm_379_Kraftkurve2_216px_36def6fc50.png]]
+   #+reveal_html: </div>
+   
+   
+** Yderligere forlængelse
+   #+reveal_html: <div class="column" style="float:left; width: 70%">
+   #+attr_reveal: :frag (appear)
+   $$A_{fj} = \frac{1}{2}\cdot k\cdot x_2^2 - \frac{1}{2}\cdot k\cdot x_1^2$$
+   #+attr_reveal: :frag (appear)
+   $$\boxed{A_{fj} = \frac{1}{2}\cdot k\cdot \left( x_2^2-  x_1^2\right) }$$
+   
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 30%">
+   #+attr_html: :width 500px
+   [[file:img/2019-12-02_14-10-24_csm_377_Forlaengelse_fjedre_220px_a25e88abe6.png]]
+   #+reveal_html: </div>
+   
+** Opgaver
+   *Opgave 9.4.1*
+   #+attr_html: :width 600px
+   [[file:img/2019-12-02_14-17-24_screenshot.png]]
+
+   
+   *Opgave 9.4.2*
+   #+attr_html: :width 600px
+   [[file:img/2019-12-02_14-17-52_screenshot.png]]
+
+* Kinetisk energi
+  (Også kaldet bevægelsesenergi)
+** Kinetisk energi
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_html: :width 250px
+   [[file:img/2019-12-02_14-37-11_127908700-world-mosquito-day-vector-design-with-flying-mosquito.jpg]]
+   #+attr_html: :width 250px
+   [[file:img/2019-12-02_14-41-21_cartoon-diesel-train-260nw-195460508.jpg]]
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :width 200px
+   [[file:img/2019-12-02_14-39-50_atleta-de-trilha-superior-esgotado-dos-desenhos-animados-115815554.jpg]]
+   #+attr_reveal: :frag (appear)
+   - Hvad kan den kinetiske energi afhænge af?
+   #+reveal_html: </div>
+   
+** Hvad kan den kinetiske energi afhænge af?
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_reveal: :frag (appear)
+   - Massen!
+   #+attr_reveal: :frag (appear)
+   $$E_{kin} = ? \cdot \boxed{m} \cdot ?^{?}$$
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :width 400px
+   [[file:img/2019-12-02_14-56-41_depositphotos_24310403-stock-illustration-bike-car-bus-truck.jpg]]
+   #+reveal_html: </div>
+     
+   #+reveal: split
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_reveal: :frag (appear)
+   - Farten!
+   #+attr_reveal: :frag (appear)
+   $$E_{kin} = ? \cdot m \cdot \boxed{v}^{?}$$
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :width 600px
+   [[file:img/2019-12-02_15-02-54_1*CIfSAOukSv9__Tl9CakYHQ.jpeg]]
+   #+reveal_html: </div>
+   
+** Alles zusammen
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_html: :height 200px align:right
+   [[file:img/2019-12-02_14-56-41_depositphotos_24310403-stock-illustration-bike-car-bus-truck.jpg]]
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :height 200px 
+   [[file:img/2019-12-02_15-02-54_1*CIfSAOukSv9__Tl9CakYHQ.jpeg]]
+   #+reveal_html: </div>
+   
+   $$\boxed{E_{kin} = \frac{1}{2}\cdot m \cdot v^2}$$
+   
+
+** Opgaver
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   *Regn selv*
+   #+attr_html: :width 500px
+   [[file:img/2019-12-02_16-07-22_screenshot.png]]
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   *Opgave 9.5.2*
+   #+attr_html: :width 500px
+   [[file:img/2019-12-02_16-08-46_screenshot.png]]
+   #+reveal_html: </div>
+   
+** Hvor kommer formlen fra?
+   #+reveal_html: <div style="font-size: 60%;">
+   $$\boxed{E_{kin} = \frac{1}{2}\cdot m \cdot v^2}$$
+   #+attr_reveal: :frag (appear)
+   Hints:
+   #+attr_reveal: :frag (appear)
+   - Arbejdet for den resulterende kraft
+     #+attr_reveal: :frag (appear)
+     - "Arbejde er et værre mas"
+   - Hjælp fra "hjælpesætningen"
+     #+attr_reveal: :frag (appear)
+     - $v_0=0$, $s_0=0$
+   - Trylle, trylle, trylle
+
+** Trylle, trylle, trylle
+   #+BEGIN_EXPORT html
+   <iframe width="600" height="400" src="https://www.youtube.com/embed/K-kDG1Kbz3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   #+END_EXPORT
+     
+** Hvor kommer formlen fra?
+   #+reveal_html: <div style="font-size: 60%;">
+   $$E_{kin}=A_{F_{res}} = m \cdot \boxed{a \cdot s}$$
+   $$s - s_0 = \frac{v^2-v_0^2}{2 \cdot a}\,,\, v_0=0\,,\, s_0=0\to$$
+   $$a \cdot s = \frac{v^2}{2}$$
+   $$E_{kin} = m \cdot \boxed{\frac{v^2}{2}}$$
+   $$\boxed{E_{kin} = \frac{1}{2}\cdot m \cdot v^2}$$
+   
+* Potentiel energi
+  (Også kaldet beliggenhedsenergi)
+
+** Potentiel energi
+   $$\boxed{E_{pot} = m \cdot g \cdot h}$$
+
+** Hvor kommer formlen fra?
+   
+   #+reveal_html: <div style="font-size: 70%;">
+   #+reveal_html: <div class="column" style="float:left; width: 50%">
+   #+attr_reveal: :frag (appear)
+   - Energi oplagret i tyngdefeltet
+   - Omdannes til arbejde udført at tyngdekraften
+   - $E_{pot}= A_{F_t} = F_t \cdot h$
+   - $\boxed{E_{pot}= m \cdot g \cdot h}$
+
+   #+reveal_html: </div>
+   #+reveal_html: <div class="column" style="float:right; width: 50%">
+   #+attr_html: :width 600px
+   [[file:img/2019-12-03_10-49-07_csm_371_Tryngdekraft_350px_143f2750b5.png]]
+   #+reveal_html: </div>
+
+** Opgave 9.2.1
+   #+attr_html: :width 600px
+   [[file:img/2019-12-03_10-54-50_screenshot.png]]
+
+** Opgave regn selv
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-04-00_screenshot.png]]
+  
+- Husk retning på både kraft og strækning.
+
+** Skrå bevægelse
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+- *Lodret bevægelse*
+- $A_{t, lodret} = - F_t\cdot h$
+- $A_{t,lodret}= - m \cdot g \cdot h$
+- *Skrå bevægelse*
+- $A_{t,skrå}=F_t \cdot s \cdot \boxed{\cos(\phi)}$
+- $A_{t,skrå}=F_t \cdot s \cdot \boxed{\frac{h}{s}} = m \cdot g \cdot h$
+- Arbejdets størrelse er den samme!
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-01-21_csm_372_Tyngdekraf_2_300px_3f5aee3928.png]]
+#+reveal_html: </div>
+
+** Opgave 9.2.2
+
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-12-11_screenshot.png]]
+
+** Opgave 9.6.2
+
+Blanding af potentiel energi og kinetisk energi
+
+#+attr_html: :width 400px
+[[file:img/2019-12-03_11-13-43_screenshot.png]]
+
+* Mekanisk energi
+
+** Mekanisk energi
+   #+reveal_html: <div style="font-size: 70%;">
+   #+reveal_html: <div class="column" style="float:left; width: 70%">
+   #+attr_reveal: :frag (appear)
+   - Den mekaniske energi er /summen/ af den kinetiske og potentielle energi
+   - $\boxed{E_{mek} = E_{kin}+E_{pot}}$
+   - Hvad er den mekaniske energi i de 3 viste situationer?
+   - Lad os gøre det på tavlen.
+   - $E_{mek,1}=E_{mek,2}=E_{mek,3}=m g h$
+   - Den mekaniske energi er bevaret, når der ingen friktion er til stede!
+   #+reveal_html: </div>
+
+   #+reveal_html: <div class="column" style="float:right; width: 30%">
+   #+attr_html: :width 600px
+   [[file:img/2019-12-03_11-20-05_csm_387_Mekanisk_energi_228px_d4ca54622c.png]]
+   #+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+
+#+DOWNLOADED: screenshot @ 2019-12-03 11:27:12
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-03_11-27-12_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-29-01_screenshot.png]]
+#+reveal_html: </div>
+
+* Ekstralækre opgaver
+
+** Fjeder og skråplan
+   #+reveal_html: <div style="font-size: 60%;">
+   #+attr_html: :width 600px
+   [[file:img/2019-12-03_11-33-44_screenshot.png]]
+
+   En klods på 2.00 kg skubbes mod en fjeder med ubetydelig masse og en fjederkonstant på $k=400N/m$. Fjederen sammenpresses med 0.220 m.
+
+   Når klodsen slippes bevæger den sig hen ad den vandrette overflade og op ad skråplanet. Begge dele er friktionsløse. Skråplanet har en vinkel med vandret på $37^{\circ}$.
+   
+   1. Hvad er klodsens fart i det øjeblik, den slipper fjederen?
+   2. Hvor langt op ad skråplanet bevæger klodsen sig, før end den begynder at glide ned igen?
+
+** Malerspande
+
+   #+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+To malerspande er forbundet af et (masseløst) reb. Systemet frigives med den 12 kg-tunge malerspand 2.0 m over gulvet. Friktion og masse af trissen kan ignoreres.
+
+1. Anvend princippet om energibevarelse til at beregne den fart, som den tunge spand rammer gulvet med.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-42-28_screenshot.png]]
+#+reveal_html: </div>
+
+** En lastbil på afveje
+   #+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+En lastbil med defekte bremser og en masse $m$ kører ned af en isglat bjergvej. Bjergvejen har en konstant hældning med vandret på $\alpha$, og lastbilens begyndelsesfart er $v_0$.
+
+Efter at have tilbagelagt en strækning $L$ uden nævneværdig friktion, styrer chaufføren lastbilen op ad en sikkerhedsrampe med en konstant hældning med vandret på $\beta$. Sikkerhedsrampen har en overflade bestående af blødt sand, som giver en friktionskonstant på $\mu$.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+[[file:img/2019-12-03_11-48-49_screenshot.png]]
+
+1. Hvor langt bevæger lastbilen sig op ad sikkerhedsrampen, før end den standser op?
+#+reveal_html: </div>
