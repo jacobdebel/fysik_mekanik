@@ -588,31 +588,225 @@ Et lod med ukendt masse hænger stille i en fjeder med fjederkonstant 95.0 N/m. 
 #+attr_html: :height 500px
 [[./img/hookes_lov_eksperiment.jpg]]
 
+* Tryk
+#+attr_html: :width 80%
+[[./img/tryk.jpg]]
+
+** Tryk
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+$$\text{tryk} = \frac{\text{trykkraft vinkelret på en flade}}{\text{fladens areal}}$$
+
+$$\boxed{p = \frac{F}{A}\,}$$
+
+hvor $p$ er den fysiske størrelse *tryk*, som måles i enheden pascal, som skrives som $\text{Pa} = \frac{N}{m^2}$.
+
+Alternative enheder er:
+- /atmosfære/ (1 atm = 101 325 Pa)
+- /bar/ (1 bar = 100 000 Pa)
+- psi (Pound per Square Inch, 1 psi = 6 894.76 Pa)
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/Pressure.jpg]]
+#+attr_reveal: :frag (appear)
+- Hvem af jer kan skabe det *højeste* tryk mellem jer selv og gulvet?
+- Og det *laveste* tryk?
+- Beregn hvad trykket er mellem et af jeres stoleben og gulvet?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Simple opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opg 2.40*
+
+Når en person på 80 kg lægger sig på en vandseng, er kontaktfladen til sengen omkring 0.5 m^{2}. *Hvor stort bliver overtrykket i vandet, når personen lægger sig på sengen?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opg 2.41*
+
+Dækkene på en bus består af uendeligt blødt og stærkt gummi. Bussen vejer 5 t og har vægten fordelt ligelidt på alle fire hjul.
+
+*Find hvert dæks kontaktflade til vejbanen, idet trykket i dækket er 4 atm.*
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Tryk i væske
+#+attr_html: :width 80%
+[[./img/tryk_i_vaeske.png]]
+
+#+attr_reveal: :frag (appear)
+- Hvad sker der med ørerne?
+
+** Tryk i væske
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 70%
+[[./img/tryk_i_vaeske_udledning.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_reveal: :frag (none fade-out appear appear appear appear appear none) :frag_idx (- 1 1 1 1 1 1 -)
+- $F_p = F_0 + F_{t,\text{væske}}$ Newtons 1. lov
+- [[https://youtu.be/K-kDG1Kbz3Q][Trylle, trylle, trylle (Vi tager den lige sammen)]]
+- $\frac{F_p}{A} = \frac{F_0}{A} + \frac{F_{t,\text{væske}}}{A}$ 
+- $p = p_0 + \frac{m_\text{væske} \cdot g}{A}$
+- $p = p_0 + \frac{\rho\cdot V \cdot g}{A}$
+- $p = p_0 + \frac{\rho\cdot A \cdot h \cdot g}{A}$
+- $p = p_0 + \rho g h$
+- $\boxed{p = \rho g h + p_0}$
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Ø3.5*
+
+På det dybeste sted i Storebælt er havdybden 50 m.
+
+- *Beregn trykket i enheden atm i denne dybde, når saltvands densitet er 1.03 g/cm^{3}.*
+
+Den største vanddybde på jordkladen findes i Challenger-dybet i Stillehavet. Her er havdybden 11.3 km.
+
+- *Beregn trykket på bunden af Challenger-dybet.*
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Ø3.6*
+
+*Beregn atmosfærens samlede masse!*
+
+Det kan gøres på følgende måde:
+
+1. Beregn Jordens overfladeareal, idet Jorden er en kugle med radius $r=6380$ km, og arealet af en kugle er $A_{kugleoverflade} = 4 \cdot \pi \cdot r^2$.
+2. Beregn dem samlede kraft, hvormed atmosfæren trykket på jordoverfladen, når atmosfærens tryk er 101 325 Pa.
+3. Denne kraft er lig med tyngdekraften på atmosfæren. *Hvad er da atmosfærens masse?*
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
 * Opdrift
 #+attr_html: :height 450px
 [[./img/opdrift_intro.jpg]]
 
-#+reveal_html: <div style="font-size: 60%;">
-#+attr_reveal: :frag (appear)
-- Vi vender tilbage til dette, når vi ved noget om *tryk*.
+
+** Archimedes' lov
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe width="400" height="400" src="https://www.youtube.com/embed/0v86Yk14rf8" title="The real story behind Archimedes’ Eureka! - Armand D&#39;Angour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
+$$\boxed{F_\text{opdrift} = \rho \cdot V \cdot g}$$
 #+reveal_html: </div>
 
-# ** Mulige forsøg
-# *** Måling af tyngdekraften
-# side 131
-# *** Undersøgelse af elastikker (hookes lov)
-# side 140
-# *** Friktionskræfter
-# side 141
-# *** Newtons 3. lov
-# side 184
-* Tryk og opdrift 
-** Mulige forsøg
-*** Archimedess lov
-side 155 eller ballonforløbet fra vibenshus.
-*** Tryk i en væskesøjle
-side 161
-* Impuls
-** Mulige forsøg
-*** Bevarelse af bevægelsemængde
-side 180
+#+reveal_html: <div>
+#+begin_export html
+<iframe width="400" height="400" src="https://www.youtube.com/embed/ijj58xD5fDI" title="How taking a bath led to Archimedes&#39; principle - Mark Salata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
+#+reveal_html: <div style="font-size: 60%;">
+#+begin_quote
+Opdriften er lige så stor, som vægten (tyngdekraften) af den fortrængte væskemængde.
+#+end_quote
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** [[https://youtu.be/rog8ou-ZepE][Ice Ice baby]]
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/opdrift_intro.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave*
+
+En isflage med et volumen på 23 m^{3} flyder på en ferskvandsflade.
+
+1. Indtegn de kræfter, der påvirker isen, og bestem opdriften på isen.
+2. Bestem rumfanget af den fortrængte væskemængde.
+3. Redegør for, at ca. 9/10 af et isbjerg ligger under vandoverfladen.
+4. Hvor meget vil vandstanden stige, når isen smelter?
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Opg 2.43*
+
+I forbindelse med et havneanlæg bankes 7 m lange og 40 cm tykke pæle ned i havbunden. Det pågældende sted er vanddybden 2.5 m, og pælen bliver banket 2 m ned i havbunden. Det pågældende træ har densiteten 650 kg/m^{3}. Den del af pælen, som er nedrammet i havnbunden er ikke omgivet af vand.
+
+1. Indtegn de kræfter, der påvirker pælen.
+2. Bestem opdriften på pælen.
+3. Bestem den kraftpåvirkning havbunden yder på pælen.
+
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opg 2.44*
+
+Et 200 g blylod nedsænkes i en ukendt væske. Loddet hænger i en snor under en bismervægt. Når hele loddet er nedsænket i væsken viser bismervægten 181 g.
+
+1. Tegn en skitse af opstillingen. Indtegn efterfølgende de kræfter, som virker på loddet i nedsænket tilstand.
+2. Bestem størrelserne af kræfterne.
+3. Bestem den ukendte væskes massefylde.
+#+reveal_html: </div>
+#+reveal_html: </div>
+*Opg 2.46*
+
+En isflage på en ferskvandssø river sig en kold vinterdag løs. Isflagen er 20 cm tyk. Ferskvands densitet er ca. 1000 kg/m^{3} mens is' densitet er 920 kg/m^{3}.
+
+1. Hvor stor skal isflagen være, hvis en dreng, som vejer 50 kg, skal kunne stå på den uden at få våde fødder?
+#+reveal_html: </div>
+
+
+** Udledning
+Vi skal bruge noget hjælp fra et helt særligt dyr.
+
+#+attr_reveal: :frag (appear) :frag_idx 1
+*Kasse*​lothvalen!
+#+attr_reveal: :frag (appear) :frag_idx 1
+#+attr_html: :width 80%
+[[./img/kasselothval.png]]
+
+** Udledning
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+[[./img/kasselothval_2.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Det er nok bedst at gøre det sammen.
+#+attr_reveal: :frag appear :frag_idx 1
+Svaret er:
+#+attr_reveal: :frag appear :frag_idx 1
+\begin{align*}
+F_\text{op} &= F_2 - F_1 \\
+F_\text{op} &= \left( p + \rho g H \right)\cdot A - p A \\
+F_\text{op} &= p A + \rho g H  A - p A \\
+F_\text{op} &= \rho g H  A \\
+F_\text{op} &= \rho g V \\
+F_\text{op} &= \rho V g
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
