@@ -624,7 +624,7 @@ Alternative enheder er:
 #+reveal_html: <div>
 *Opg 2.40*
 
-Når en person på 80 kg lægger sig på en vandseng, er kontaktfladen til sengen omkring 0.5 m^{2}. *Hvor stort bliver overtrykket i vandet, når personen lægger sig på sengen?
+Når en person på 80 kg lægger sig på en vandseng, er kontaktfladen til sengen omkring 0.5 m^{2}. *Hvor stort bliver overtrykket i vandet, når personen lægger sig på sengen?*
 #+reveal_html: </div>
 
 #+reveal_html: <div>
