@@ -1,0 +1,82 @@
+#+title: Eksperimenter med bevægelse i én (og/eller to) dimension(er)
+#+subtitle: Mekanik
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* Indledning
+  #+attr_latex: :width 7cm
+  [[file:img/2019-12-10_07-58-00_film-and-vid.jpg]]
+
+  Fysik indeholder som bekendt både skriftlige, mundtlige og eksperimentelle aspekter. 
+  Fokus er i denne omgang på det mundtlige aspekt. For i stedet for at producere klassiske fysikrapporter skal der indspilles og afleveres *videoprodukter*. Yderligere skal I også selv designe og udføre eksperimenterne.
+  
+* Gruppearbejde
+  I skal inddeles i mindre grupper af 3 eller 4 elever. I bestemmer selv, hvordan I vil fordele jer.
+
+* Emner
+  #+attr_latex: :width 7cm
+  [[file:img/2019-12-10_07-41-43_34817502643b8a0b0805dd422c8a8283.jpg]]
+
+  I løbet af undervisningen i translatorisk mekanik har vi blandt andet arbejdet med følgende emner:
+  - bevægelse med konstant hastighed.
+  - bevægelse med konstant acceleration.
+  - (t,s)-, (t,v)- og (t,a)-grafer.
+  - Lodret kast (og lidt med det skrå kast).
+  - Newtons love.
+  - forskellige typer af kræfter: snorkræfter, fjederkræfter/Hookes lov, opdrift, friktion og luftmodstand.
+  - Arbejde og energi.
+  - potentiel energi, kinetisk energi og mekanisk energi.
+  - energi oplagret i en fjeder.
+    
+\newpage
+
+* Design af eksperimenter
+  #+attr_latex: :width 7cm 
+  [[file:img/2019-12-10_07-37-00_vandekandedimstilweb2.jpg]]
+
+  I skal i jeres grupper selv designe og udføre et eller flere eksperimenter som kan belyse et godt udvalg af de førnævnte emner. Om det skal være ét stort forkromet eksperiment eller flere simple, er op til jer.
+  
+  Hvis man ikke selv kan komme på nogle gode eksperimenter, kan man blive inspireret af følgende liste:
+  - Undersøgelse af det frie fald.
+  - Fald med luftmodstand.
+  - Et lodret kast.
+  - Et lodet kast med vindmodstand (semisvært).
+  - Det skrå kast.
+  - Det skrå kast med vindmodstand (svært).
+  - Bestemmelse af friktionskoefficienter mellem selvvalgte materialer.
+  - Undersøgelse af statiske og dynamiske friktionskoefficienter.
+  - Undersøgelse af forskellige fjedre og Hookes lov.
+  - Undersøgelse af elastikker eller andre fjedrende materialer, og om de opfører sig efter Hookes lov.
+  - (Lodret) skud med slangebøsse. Byg den selv.
+  - Acceleration af vogne og lodder på en skinne.
+  - Bevægelser på et skråplan. (Er i 2 dimensioner, så det er for dem, som gerne vil udfordres).
+    
+\newpage
+
+* Krav til videoerne
+  Der skal være særligt fokus på den *teoretiske* beskrivelse af forsøget og fysikken (formlerne) bag, men også på præsentation af *resultaterne efter datahandling*. Videoerne skal derfor indeholde:
+  - En præsentation af eksperimenterne, og hvilke størrelser der ønskes bestemt i dem.
+  - En analyse af eksperimenterne. Det kunne f.eks. være at indtegne kræfter på en figur og finde den resulterende kraft og efterfølgende vise de beregninger/udledninger med symboler, som skal til for at bestemme en værdi for de ønskede størrelser.
+  - En /kort/ forklaring på, hvilke målinger der skal foretages i eksperimenterne, og hvordan disse udføres.
+  - En uddybende præsentation af resultaterne efter databehandlingen. Selve databehandlingen skal der ikke bruges synderlig meget tid på. Den skal gerne give sig selv, efter man har set analyserne af eksperimenterne.
+
+Der er selvfølgelig frihed til indsætte andre indslag i videoerne, hvis det vil fremme formidlingen.
+
+Videoerne må maksimalt have en varighed på *10 minutter* i deres endelige form.
+
+* Gode råd til videoindspilning
+  - Udarbejd en drejebog (storyboard på engelsk). Hvilke scener skal der være med.
+  - Overvej, hvordan videoerne skal indspilles. Screencast på computeren, live foran kameraet, en blanding eller måske noget helt andet. Alle gruppemedlemmer skal dog præsentere noget i videoen.
+  - Overvej, hvilke former for rekvisitter, som skal være med. Det kan både være fysiske og elektroniske.
+  - Øv jer på jeres replikker, udledninger osv. inden selve indspilningen. Min egen erfaring er, at jeg altid skal øve mig mindst tre gange, før end en vigtig præsentation sidder lige i skabet.

@@ -1,0 +1,7 @@
+Dette repo indholder en række præsentationer til emnet mekanik.
+
+Indtil videre der er følgende præsentationer:
+
+- https://jacobdebel.github.io/fysik_mekanik/10_kinematik
+- https://jacobdebel.github.io/fysik_mekanik/20_dynamik
+- https://jacobdebel.github.io/fysik_mekanik/30_arbejde_og_energi
