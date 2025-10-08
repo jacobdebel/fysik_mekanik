@@ -1,0 +1,547 @@
+#+title: Impuls (Bevægelsesmængde)
+#+subtitle: Translatorisk mekanik 
+#+author: Jacob Debel
+#+date: Fysik A (Fysik B)
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* N2 på original form
+** N2 på original form
+   $$\vec{F}_{res} = \frac{d \vec{p}}{d t}$$
+   
+   #+attr_reveal: :frag (appear)
+   - Hvad er $\vec{p}$?
+     
+* Impuls
+
+** Impuls (aka bevægelsesmængde)
+   
+   $$p \equiv m \cdot v$$
+   #+attr_reveal: :frag (appear)
+   eller med vektorer
+   $$\vec{p} \equiv m \cdot \vec{v}$$
+   
+** N2 igen
+
+   #+attr_reveal: :frag (appear)
+   - $\vec{F}_{res} = \frac{d \vec{p}}{d t}$
+   - $\vec{F}_{res} = \frac{d (m \cdot \vec{v})}{d t}$
+   - $\vec{F}_{res} = m \cdot \frac{d \vec{v}}{d t}$
+   - $\vec{F}_{res} = m \cdot \vec{a}$
+     
+** Makro
+
+   $$\vec{F}_{res} = \frac{\Delta \vec{p}}{\Delta t}$$
+   
+** Impulsændring
+   $$\Delta \vec{p} = \vec{F}_{res} \cdot \Delta t$$
+
+   #+attr_reveal: :frag (appear)
+   - Hvis $\vec{F}_{res} = \vec{0}$
+   - $\Delta p = 0$
+   - $p= \text{konstant}$
+   - Kaldes /impulsbevarelse/.
+
+** Regnetid     
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_14-28-10_screenshot.png]]
+
+* Eksempel
+#+attr_html: :width 600px
+[[file:img/2019-12-15_12-42-22_https%253A%252F%252Fblogs-images.forbes.com%252Fsamabuelsamid%252Ffiles%252F2017%252F07%252Fapi-rating-image.jpg]]
+
+** Sammenstød
+   
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+- stødzoner
+- 30 km/h
+- deformation 40 cm, på tiden 1/10 s
+- Bilens masse 800 kg
+#+attr_reveal: :frag (appear)
+- $\Delta p = 0 - mv$
+- $F_{res} = \frac{\Delta p}{\Delta t}$
+- $F_{res} = \frac{0 - 800 kg \cdot 8.33 m/s}{0.1 s} = -67 kN$
+- $F_t \approx 8 kN$
+- $\frac{F_{res}}{F_t} \approx 8.375$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+[[file:img/2019-12-15_13-37-53_screenshot.png]]
+#+reveal_html: </div>
+
+** Regnetid
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-03-28_screenshot.png]]
+
+#+attr_html: :width 300px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-03-48_screenshot.png]]
+
+
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+
+#+DOWNLOADED: screenshot @ 2019-12-17 15:04:33
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-04-33_screenshot.png]]
+
+#+reveal_html: </div>
+
+* 2- og mangepartikelsystemer
+
+** Jord og Måne som ét system
+
+#+attr_html: :width 500px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_08-10-53_screenshot.png]]
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+- Samlet impuls på systemet: $\vec{p} = \vec{p}_1 + \vec{p}_2+\dots$
+- 1 og 2 er hhv. Jorden og Månen.
+- *Ydre kræfter* fra Solen er $\vec{F}_{y1}$ og $\vec{F}_{y2}$.
+- *Indre kræfter* er hhv. $\vec{F}_{i1}$ og $\vec{F}_{i2}$.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_08-10-53_screenshot.png]]
+#+reveal_html: </div>   
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+Impulsændring på Jorden (1)
+#+attr_reveal: :frag (appear)
+- $\Delta \vec{p}_1 = \vec{F}_{y1}\cdot \Delta t + \vec{F}_{i1} \cdot \Delta t$
+- $\Delta \vec{p}_1= \left( \vec{F}_{y1}+\vec{F}_{i1} \right)\cdot \Delta t$
+#+attr_reveal: :frag (appear)
+Impulsændring på Månen (2)
+#+attr_reveal: :frag (appear)
+- $\Delta \vec{p}_2 = \vec{F}_{y2}\cdot \Delta t + \vec{F}_{i2} \cdot \Delta t$
+- $\Delta \vec{p}_2= \left( \vec{F}_{y2}+\vec{F}_{i2} \right)\cdot \Delta t$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_08-10-53_screenshot.png]]
+#+reveal_html: </div>   
+   
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+#+attr_reveal: :frag (appear)
+Den samlede impulsændring på systemet
+#+attr_reveal: :frag (appear)
+- $\Delta \vec{p} = \Delta \vec{p}_1 + \Delta \vec{p}_2$
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+\vec{F}_{i1} \right)\Delta t + \left( \vec{F}_{y2}+\vec{F}_{i2} \right)\Delta t$
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\vec{F}_{i1} + \vec{F}_{i2} \right)\Delta t$
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{\vec{F}_{i1} + \vec{F}_{i2}} \right)\Delta t$
+- *Hvad giver de markede led?*
+- Hint: Newtons 3. lov (reaktion er lig aktion, men modsatrettet).
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_08-10-53_screenshot.png]]
+#+reveal_html: </div>   
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+Den samlede impulsændring på systemet
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{\vec{F}_{i1} + \vec{F}_{i2}} \right)\Delta t$
+- *Hvad giver de markede led?*
+- Hint: Newtons 3. lov (reaktion er lig aktion, men modsatrettet).
+
+#+attr_reveal: :frag (appear)
+- $\vec{F}_{i1} = - \vec{F}_{i2}$
+- $\vec{F}_{i1} + \vec{F}_{i2} = 0$
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{0} \right)\Delta t$
+- $\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} \right)\Delta t = \boxed{\vec{F}_y \cdot \Delta t}$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_08-10-53_screenshot.png]]
+#+attr_reveal: :frag (appear)
+#+begin_quote
+*Impulsændringen afhænger altså kun af de /ydre/ kræfter!*
+#+end_quote
+#+reveal_html: </div>   
+
+** Mangepartikelsystemer
+#+attr_reveal: :frag (appear)
+- Alle /indre/ kræfter går ud med hinanden.
+- Hvis der ingen /ydre/ kræfter er, er $\Delta p = 0$.
+#+attr_reveal: :frag (appear)
+#+begin_quote
+I et isoleret system er den samlede impuls bevaret.
+Altså $\vec{p}$ er konstant.
+#+end_quote
+
+** Regnetid
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+
+
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2020-01-28_08-38-51_screenshot.png]]
+
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-15-43_screenshot.png]]
+#+reveal_html: </div>
+
+** Eksempel
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_10-15-37_screenshot.png]]
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+- $m_p = 5 g$
+- $m_k = 200 g$
+- $v_\text{fælles} = 3.2 m/s$
+- Glat underlag mellem klods og bord.
+- Hvad er projektilets hastighed umiddelbart inden det sætter sig fast i klodsen?
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_10-15-37_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+#+attr_reveal: :frag (appear)
+- $\Delta p = 0 \to p_\text{før} =p_\text{efter}$
+- $m_p \cdot v_p +m_k \cdot  0 = \left(m_p+m_k \right)\cdot v_\text{fælles}$
+- $v_p = \frac{m_p+m_k}{m_p} \cdot v_\text{fælles}$
+- $v_p = \frac{5 g +200 g}{5 g} \cdot 3.2 m/s$
+- $v_p = 131 m/s$
+- *Hov skal massen egentlig ikke være i kg? Eller er det lige meget?*
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_10-15-37_screenshot.png]]
+- $m_p = 5 g$
+- $m_k = 200 g$
+- $v_\text{fælles} = 3.2 m/s$
+- Glat underlag mellem klods og bord.
+#+reveal_html: </div>
+
+** Regnetid
+
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-07-15_screenshot.png]]
+
+* Stødprocesser
+  
+** Stød uden ydre kræfter
+
+#+DOWNLOADED: screenshot @ 2019-12-17 10:30:59
+#+attr_html: :width 350px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_10-30-59_screenshot.png]]
+
+Impulsbevarelse giver:
+#+attr_reveal: :frag (appear)
+$\boxed{m_1 \cdot \vec{u}_1 + m_2 \cdot \vec{u}_2 = m_1 \cdot \vec{v}_1 + m_2 \cdot \vec{v}_2}$
+
+** Centrale stød
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+- De to partikler bevæger sig på samme rette linje før og efter stødet.
+- Kaldes et /lige/ og /centralt/ stød.
+- Behøves ikke at blive beregnet med vektorer.
+- Men regn med *fortegn* alligevel.
+#+attr_reveal: :frag (appear)
+$\boxed{m_1 \cdot u_1 + m_2 \cdot u_2 = m_1 \cdot v_1 + m_2 \cdot v_2}$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 350px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_10-35-37_screenshot.png]]
+#+reveal_html: </div>
+
+** Elastiske stød
+#+BEGIN_EXPORT html
+<video controls width="500">
+<source src="https://ku.23video.com/7718126/8160403/04df6f88f32076e403ae7e0f4d424a0e/video_hd/elastisk-stod-1-video.mp4?uuid=1efff373-451a-088a-a088-98fd825de4c6" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Impulsen er bevaret.
+- $m_1 \cdot u_1 + m_2 \cdot u_2 = m_1 \cdot v_1 + m_2 \cdot v_2$
+- Den mekaniske energi er bevaret.
+- $\frac{1}{2}m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2$
+
+** Uelastiske stød
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+- Impulsen er bevaret (som altid i en stødproces).
+- Energien er /ikke/ altid bevaret.
+- 100% elastisk stød. Energien er bevaret.
+- 100% uelastisk stød. Energien er /ikke/ bevaret. Objekterne følges ad efter stødet.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_11-21-02_screenshot.png]]
+#+reveal_html: </div>
+
+** Eksempel
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 60%">
+- To ens vogne, hver med massen $m$.
+- $u_1=5 m/s$ , $u_2=2.5 m/s$.
+- Vognene låses sammen ved sammenstødet.
+- Hvad er sluthastigheden?
+#+attr_reveal: :frag (appear)
+- $\Delta p = 0 \to p_{før} = p_{efter}$
+- $m u_1 + m u_2 = (m+m) v$
+- $m \left( u_1 +  u_2  \right)= (m+m) v$
+- $m \left( u_1 +  u_2  \right)= 2m v$
+- $\frac{u_1 +  u_2  }{2}=v$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 40%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_12-02-08_screenshot.png]]
+#+attr_reveal: :frag (appear)
+- $\frac{5 m/s -  2.5 m/s  }{2}=v$
+- $1.25 m/s=v$
+- Vognene bevæger sig mod højre.
+#+reveal_html: </div>
+
+** Regnetid
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2020-01-28_08-47-30_screenshot.png]]
+
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-21-04_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal: split
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-35-43_screenshot.png]]
+
+* Massemidtpunkt
+** Massemidtpunkt
+#+reveal_html: <div class="column" style="float:left; width: 60%">
+- $\vec{r}_T = \frac{\sum_i m_i \cdot \vec{r}_i}{M}$
+- $M = \sum_i m_i$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 40%">
+
+#+DOWNLOADED: screenshot @ 2019-12-17 12:22:44
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_12-22-44_screenshot.png]]
+#+reveal_html: </div>
+
+** Eksempel
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+- 3 kugler i en retvinklet trekant.
+- Vælg selv et passende koordinatsystem.
+#+attr_reveal: :frag (appear)
+- $x_T = \frac{\sum m_i\cdot x_i}{M}$
+- $x_T = \frac{2 kg \cdot 0 m + 3 kg \cdot 0 m + 4 kg \cdot 3 m}{2 kg + 3 kg + 4 kg}$
+- $x_T = 1.33 m$
+- $y_T = \frac{\sum m_i\cdot y_i}{M}$
+- $y_T = \frac{2 kg \cdot 0 m + 3 kg \cdot 2 m + 4 kg \cdot 0 m}{2 kg + 3 kg + 4 kg}$
+- $y_T = 0.67 m$
+- $\boxed{\vec{r}_T = \begin{pmatrix} 1.33 m \\ 0.67 m \end{pmatrix}}$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_12-31-50_screenshot.png]]
+
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_12-32-31_screenshot.png]]
+
+#+reveal_html: </div>
+
+** Massemidtpunktets hastighed
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- $\vec{v}_T = \frac{\Delta \vec{r}_T}{\Delta t}$
+- $\vec{v}_T = \frac{\sum_i \frac{m_i \Delta \vec{r}_i}{M}}{\Delta t}$
+- $\vec{v}_T = \frac{1}{M}\cdot \sum_i m_i \boxed{\frac{ \Delta \vec{r}_i}{\Delta t}}$
+- $\vec{v}_T = \frac{1}{M}\cdot \sum_i m_i \boxed{\vec{v}_i}$
+- Systemets samlede impuls er $\vec{p}_\text{total} = \sum_i m_i \vec{v}_i$.
+- $\boxed{\vec{p}_\text{total} = M \cdot \vec{v}_T}$
+  
+#+attr_reveal: :frag (appear)
+#+begin_quote
+Massemidtpunktets impuls er lige hele systemets impuls.
+#+end_quote
+
+** Massemidtpunktets acceleration
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+#+attr_reveal: :frag (appear)
+- $\vec{a}_T = \frac{\Delta \vec{v}_T}{\Delta t}$
+- $\vec{a}_T = \frac{1}{M} \sum_i m_i \frac{\Delta \vec{v}_i}{\Delta t}$
+- $\vec{a}_T = \frac{\sum_i m_i \vec{a}_i}{M}$
+- $m_i \vec{a}_i = \vec{F}_i$
+- $\vec{F}_i = \vec{F}_{yi} + \vec{F}_{ii}$
+- $M \vec{a}_T = \sum_i m_i \vec{a}_i$
+- $M \vec{a}_T = \sum_i \left( \vec{F}_{yi}+ \vec{F}_{ii} \right)$
+- $M \vec{a}_T = \sum_i \vec{F}_{yi}+ \boxed{\sum_i \vec{F}_{ii}}$
+- $M \vec{a}_T = \sum_i \vec{F}_{yi}$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_13-05-29_screenshot.png]]
+#+attr_reveal: :frag (appear)
+- $\vec{F}_y = \sum_i \vec{F}_{yi}$
+#+reveal_html: </div>
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+#+attr_reveal: :frag (appear)
+- $\boxed{\vec{F}_\text{ydre} = M \cdot \vec{a}_T}$
+#+attr_reveal: :frag (appear)
+#+begin_quote
+Man kan samle massen for et system i ét punkt (massemidtpunktet), og lade den samlede ydre kraft virke på dette punkt.
+#+end_quote
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_13-05-29_screenshot.png]]
+#+reveal_html: </div>
+
+** Eksempel
+Kast med stav med tre lysdioder.
+
+#+attr_html: :width 600px 
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_13-19-47_screenshot.png]]
+
+#+reveal: split
+Kast med stav med tre lysdioder.
+#+attr_html: :width 400px 
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_13-20-13_screenshot.png]]
+
+** Regnetid
+
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_17-08-58_screenshot.png]]
+
+* Raketligningen uden tyngdefelt
+** Raketligningen 
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+- Ude i rummet kommer en raket fremad ved at smide brændstof den modsatte vej.
+- Raket har øjeblikshastigheden $v(t)$ og starthastigheden $v_0$.
+- Brændstof slynges med hastigheden $u$ relativt til raketten.
+- Raketten bliver altså lettere efter udstødning af brændstof.
+#+attr_reveal: :frag (appear)
+- $\boxed{v(t) - v_0 = -u \cdot \ln \left( \frac{m(t)}{m_0} \right)}$
+- $m_0$ er begyndelsesmassen, $m(t)$ er lavere masse af raketten efter udstødning.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_13-27-18_screenshot.png]]
+#+reveal_html: </div>
+
+** Regnetid
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_14-21-35_screenshot.png]]
+
+* Raketligningen med tyngdefelt
+
+** Raketligningen tæt på Jorden
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+- For lodret opsendelse tæt på Jorden gælder
+  $$F_{\mathrm{res}}=m \cdot a_{\mathrm{res}}=F_{\mathrm{raket}}-F_{\mathrm{t}} = -u \cdot \frac{dm}{dt} - m \cdot g$$
+- Den resulterende acceleration bliver
+  $$a_{\mathrm{res}} = \frac{dv}{dt}= -u \cdot \frac{1}{m}\cdot \frac{dm}{dt}-g$$
+- Som integreres til
+  $$\boxed{v(t) -v_0 = -u \cdot \ln \left( \frac{m(t)}{m_0} \right)-g\cdot t}$$
+#+attr_reveal: :frag (appear)
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[./img/falcon_heavy.jpg]]
+#+reveal_html: </div>
+
+* Diverse resterende opgaver
+** Regnetid
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-39-02_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 600px
+#+attr_latex: :width 10cm
+[[file:img/2019-12-17_15-39-20_screenshot.png]]
+#+reveal_html: </div>

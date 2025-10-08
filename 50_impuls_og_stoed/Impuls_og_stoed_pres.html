@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8"/>
+<title>Impuls (Bevægelsesmængde)</title>
+<meta name="author" content="Jacob Debel"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/night.css" id="theme"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h2>Impuls (Bevægelsesmængde)</h2><h3>Translatorisk mekanik</h3><h4>Jacob Debel</h4><h4>Fysik A (Fysik B)</h4>
+</section>
+<section>
+<section id="slide-org79cb05b" data-background="">
+<h2 id="org79cb05b">N2 på original form</h2>
+<div class="outline-text-2" id="text-org79cb05b">
+</div>
+</section>
+<section id="slide-org200ea59" data-background="">
+<h3 id="org200ea59">N2 på original form</h3>
+<p>
+\[\vec{F}_{res} = \frac{d \vec{p}}{d t}\]
+</p>
+
+<ul>
+<li class="fragment appear">Hvad er \(\vec{p}\)?</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org16e6d99" data-background="">
+<h2 id="org16e6d99">Impuls</h2>
+<div class="outline-text-2" id="text-org16e6d99">
+</div>
+</section>
+<section id="slide-orgf756192" data-background="">
+<h3 id="orgf756192">Impuls (aka bevægelsesmængde)</h3>
+<p>
+\[p \equiv m \cdot v\]
+</p>
+<p class="fragment (appear)">
+eller med vektorer
+\[\vec{p} \equiv m \cdot \vec{v}\]
+</p>
+</section>
+<section id="slide-org6d47ea4" data-background="">
+<h3 id="org6d47ea4">N2 igen</h3>
+<ul>
+<li class="fragment appear">\(\vec{F}_{res} = \frac{d \vec{p}}{d t}\)</li>
+<li class="fragment appear">\(\vec{F}_{res} = \frac{d (m \cdot \vec{v})}{d t}\)</li>
+<li class="fragment appear">\(\vec{F}_{res} = m \cdot \frac{d \vec{v}}{d t}\)</li>
+<li class="fragment appear">\(\vec{F}_{res} = m \cdot \vec{a}\)</li>
+
+</ul>
+</section>
+<section id="slide-orgf9bb455" data-background="">
+<h3 id="orgf9bb455">Makro</h3>
+<p>
+\[\vec{F}_{res} = \frac{\Delta \vec{p}}{\Delta t}\]
+</p>
+</section>
+<section id="slide-org835450f" data-background="">
+<h3 id="org835450f">Impulsændring</h3>
+<p>
+\[\Delta \vec{p} = \vec{F}_{res} \cdot \Delta t\]
+</p>
+
+<ul>
+<li class="fragment appear">Hvis \(\vec{F}_{res} = \vec{0}\)</li>
+<li class="fragment appear">\(\Delta p = 0\)</li>
+<li class="fragment appear">\(p= \text{konstant}\)</li>
+<li class="fragment appear">Kaldes <i>impulsbevarelse</i>.</li>
+
+</ul>
+</section>
+<section id="slide-org85bae41" data-background="">
+<h3 id="org85bae41">Regnetid</h3>
+
+<div id="orgbe3f357" class="figure">
+<p><img src="img/2019-12-17_14-28-10_screenshot.png" alt="2019-12-17_14-28-10_screenshot.png" width="600px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgda4b930" data-background="">
+<h2 id="orgda4b930">Eksempel</h2>
+
+<div id="org3488fd7" class="figure">
+<p><img src="img/2019-12-15_12-42-22_https%253A%252F%252Fblogs-images.forbes.com%252Fsamabuelsamid%252Ffiles%252F2017%252F07%252Fapi-rating-image.jpg" alt="2019-12-15_12-42-22_https%253A%252F%252Fblogs-images.forbes.com%252Fsamabuelsamid%252Ffiles%252F2017%252F07%252Fapi-rating-image.jpg" width="600px" />
+</p>
+</div>
+</section>
+<section id="slide-orgf55067d" data-background="">
+<h3 id="orgf55067d">Sammenstød</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li>stødzoner</li>
+<li>30 km/h</li>
+<li>deformation 40 cm, på tiden 1/10 s</li>
+<li>Bilens masse 800 kg</li>
+
+</ul>
+<ul>
+<li class="fragment appear">\(\Delta p = 0 - mv\)</li>
+<li class="fragment appear">\(F_{res} = \frac{\Delta p}{\Delta t}\)</li>
+<li class="fragment appear">\(F_{res} = \frac{0 - 800 kg \cdot 8.33 m/s}{0.1 s} = -67 kN\)</li>
+<li class="fragment appear">\(F_t \approx 8 kN\)</li>
+<li class="fragment appear">\(\frac{F_{res}}{F_t} \approx 8.375\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org06df37e" class="figure">
+<p><img src="img/2019-12-15_13-37-53_screenshot.png" alt="2019-12-15_13-37-53_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-orgd50c951" data-background="">
+<h3 id="orgd50c951">Regnetid</h3>
+<div class="column" style="float:left; width: 50%">
+
+
+<div id="orgc8f31b5" class="figure">
+<p><img src="img/2019-12-17_15-03-28_screenshot.png" alt="2019-12-17_15-03-28_screenshot.png" width="600px" />
+</p>
+</div>
+
+
+<div id="orga037e0a" class="figure">
+<p><img src="img/2019-12-17_15-03-48_screenshot.png" alt="2019-12-17_15-03-48_screenshot.png" width="300px" />
+</p>
+</div>
+
+
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+
+<div id="org5d9e217" class="figure">
+<p><img src="img/2019-12-17_15-04-33_screenshot.png" alt="2019-12-17_15-04-33_screenshot.png" width="600px" />
+</p>
+</div>
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgf512af7" data-background="">
+<h2 id="orgf512af7">2- og mangepartikelsystemer</h2>
+<div class="outline-text-2" id="text-orgf512af7">
+</div>
+</section>
+<section id="slide-org9cb7c1b" data-background="">
+<h3 id="org9cb7c1b">Jord og Måne som ét system</h3>
+
+<div id="org3c324d1" class="figure">
+<p><img src="img/2019-12-17_08-10-53_screenshot.png" alt="2019-12-17_08-10-53_screenshot.png" width="500px" />
+</p>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li class="fragment appear">Samlet impuls på systemet: \(\vec{p} = \vec{p}_1 + \vec{p}_2+\dots\)</li>
+<li class="fragment appear">1 og 2 er hhv. Jorden og Månen.</li>
+<li class="fragment appear"><b>Ydre kræfter</b> fra Solen er \(\vec{F}_{y1}\) og \(\vec{F}_{y2}\).</li>
+<li class="fragment appear"><b>Indre kræfter</b> er hhv. \(\vec{F}_{i1}\) og \(\vec{F}_{i2}\).</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org36168ab" class="figure">
+<p><img src="img/2019-12-17_08-10-53_screenshot.png" alt="2019-12-17_08-10-53_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 50%">
+<p class="fragment (appear)">
+Impulsændring på Jorden (1)
+</p>
+<ul>
+<li class="fragment appear">\(\Delta \vec{p}_1 = \vec{F}_{y1}\cdot \Delta t + \vec{F}_{i1} \cdot \Delta t\)</li>
+<li class="fragment appear">\(\Delta \vec{p}_1= \left( \vec{F}_{y1}+\vec{F}_{i1} \right)\cdot \Delta t\)</li>
+
+</ul>
+<p class="fragment (appear)">
+Impulsændring på Månen (2)
+</p>
+<ul>
+<li class="fragment appear">\(\Delta \vec{p}_2 = \vec{F}_{y2}\cdot \Delta t + \vec{F}_{i2} \cdot \Delta t\)</li>
+<li class="fragment appear">\(\Delta \vec{p}_2= \left( \vec{F}_{y2}+\vec{F}_{i2} \right)\cdot \Delta t\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org4c0882f" class="figure">
+<p><img src="img/2019-12-17_08-10-53_screenshot.png" alt="2019-12-17_08-10-53_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<p class="fragment (appear)">
+Den samlede impulsændring på systemet
+</p>
+<ul>
+<li class="fragment appear">\(\Delta \vec{p} = \Delta \vec{p}_1 + \Delta \vec{p}_2\)</li>
+<li class="fragment appear">\(\Delta \vec{p} = \left( \vec{F}_{y1}+\vec{F}_{i1} \right)\Delta t + \left( \vec{F}_{y2}+\vec{F}_{i2} \right)\Delta t\)</li>
+<li class="fragment appear">\(\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\vec{F}_{i1} + \vec{F}_{i2} \right)\Delta t\)</li>
+<li class="fragment appear">\(\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{\vec{F}_{i1} + \vec{F}_{i2}} \right)\Delta t\)</li>
+<li class="fragment appear"><b>Hvad giver de markede led?</b></li>
+<li class="fragment appear">Hint: Newtons 3. lov (reaktion er lig aktion, men modsatrettet).</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orgbb189cb" class="figure">
+<p><img src="img/2019-12-17_08-10-53_screenshot.png" alt="2019-12-17_08-10-53_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<p>
+Den samlede impulsændring på systemet
+</p>
+<ul>
+<li>\(\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{\vec{F}_{i1} + \vec{F}_{i2}} \right)\Delta t\)</li>
+<li><b>Hvad giver de markede led?</b></li>
+<li>Hint: Newtons 3. lov (reaktion er lig aktion, men modsatrettet).</li>
+
+</ul>
+
+<ul>
+<li class="fragment appear">\(\vec{F}_{i1} = - \vec{F}_{i2}\)</li>
+<li class="fragment appear">\(\vec{F}_{i1} + \vec{F}_{i2} = 0\)</li>
+<li class="fragment appear">\(\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} +\boxed{0} \right)\Delta t\)</li>
+<li class="fragment appear">\(\Delta \vec{p} = \left( \vec{F}_{y1}+ \vec{F}_{y2} \right)\Delta t = \boxed{\vec{F}_y \cdot \Delta t}\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orgf3ea015" class="figure">
+<p><img src="img/2019-12-17_08-10-53_screenshot.png" alt="2019-12-17_08-10-53_screenshot.png" width="600px" />
+</p>
+</div>
+<blockquote class="fragment (appear)">
+<p>
+<b>Impulsændringen afhænger altså kun af de <i>ydre</i> kræfter!</b>
+</p>
+</blockquote>
+</div>
+</section>
+<section id="slide-org6faefae" data-background="">
+<h3 id="org6faefae">Mangepartikelsystemer</h3>
+<ul>
+<li class="fragment appear">Alle <i>indre</i> kræfter går ud med hinanden.</li>
+<li class="fragment appear">Hvis der ingen <i>ydre</i> kræfter er, er \(\Delta p = 0\).</li>
+
+</ul>
+<blockquote class="fragment (appear)">
+<p>
+I et isoleret system er den samlede impuls bevaret.
+Altså \(\vec{p}\) er konstant.
+</p>
+</blockquote>
+</section>
+<section id="slide-orga202bef" data-background="">
+<h3 id="orga202bef">Regnetid</h3>
+<div class="column" style="float:left; width: 50%">
+
+
+
+<div id="orgd905d92" class="figure">
+<p><img src="img/2020-01-28_08-38-51_screenshot.png" alt="2020-01-28_08-38-51_screenshot.png" width="600px" />
+</p>
+</div>
+
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org0927034" class="figure">
+<p><img src="img/2019-12-17_15-15-43_screenshot.png" alt="2019-12-17_15-15-43_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-orgb76c843" data-background="">
+<h3 id="orgb76c843">Eksempel</h3>
+
+<div id="orgb66023e" class="figure">
+<p><img src="img/2019-12-17_10-15-37_screenshot.png" alt="2019-12-17_10-15-37_screenshot.png" width="600px" />
+</p>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li>\(m_p = 5 g\)</li>
+<li>\(m_k = 200 g\)</li>
+<li>\(v_\text{fælles} = 3.2 m/s\)</li>
+<li>Glat underlag mellem klods og bord.</li>
+<li>Hvad er projektilets hastighed umiddelbart inden det sætter sig fast i klodsen?</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="org9c12857" class="figure">
+<p><img src="img/2019-12-17_10-15-37_screenshot.png" alt="2019-12-17_10-15-37_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li class="fragment appear">\(\Delta p = 0 \to p_\text{før} =p_\text{efter}\)</li>
+<li class="fragment appear">\(m_p \cdot v_p +m_k \cdot  0 = \left(m_p+m_k \right)\cdot v_\text{fælles}\)</li>
+<li class="fragment appear">\(v_p = \frac{m_p+m_k}{m_p} \cdot v_\text{fælles}\)</li>
+<li class="fragment appear">\(v_p = \frac{5 g +200 g}{5 g} \cdot 3.2 m/s\)</li>
+<li class="fragment appear">\(v_p = 131 m/s\)</li>
+<li class="fragment appear"><b>Hov skal massen egentlig ikke være i kg? Eller er det lige meget?</b></li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orga302f8c" class="figure">
+<p><img src="img/2019-12-17_10-15-37_screenshot.png" alt="2019-12-17_10-15-37_screenshot.png" width="600px" />
+</p>
+</div>
+<ul>
+<li>\(m_p = 5 g\)</li>
+<li>\(m_k = 200 g\)</li>
+<li>\(v_\text{fælles} = 3.2 m/s\)</li>
+<li>Glat underlag mellem klods og bord.</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-org1ff7771" data-background="">
+<h3 id="org1ff7771">Regnetid</h3>
+
+<div id="orgdd61ee4" class="figure">
+<p><img src="img/2019-12-17_15-07-15_screenshot.png" alt="2019-12-17_15-07-15_screenshot.png" width="600px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org47a7ad9" data-background="">
+<h2 id="org47a7ad9">Stødprocesser</h2>
+<div class="outline-text-2" id="text-org47a7ad9">
+</div>
+</section>
+<section id="slide-org5160830" data-background="">
+<h3 id="org5160830">Stød uden ydre kræfter</h3>
+
+<div id="orgb2869fd" class="figure">
+<p><img src="img/2019-12-17_10-30-59_screenshot.png" alt="2019-12-17_10-30-59_screenshot.png" width="350px" />
+</p>
+</div>
+
+<p>
+Impulsbevarelse giver:
+</p>
+<p class="fragment (appear)">
+\(\boxed{m_1 \cdot \vec{u}_1 + m_2 \cdot \vec{u}_2 = m_1 \cdot \vec{v}_1 + m_2 \cdot \vec{v}_2}\)
+</p>
+</section>
+<section id="slide-org66f9cc2" data-background="">
+<h3 id="org66f9cc2">Centrale stød</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li class="fragment appear">De to partikler bevæger sig på samme rette linje før og efter stødet.</li>
+<li class="fragment appear">Kaldes et <i>lige</i> og <i>centralt</i> stød.</li>
+<li class="fragment appear">Behøves ikke at blive beregnet med vektorer.</li>
+<li class="fragment appear">Men regn med <b>fortegn</b> alligevel.</li>
+
+</ul>
+<p class="fragment (appear)">
+\(\boxed{m_1 \cdot u_1 + m_2 \cdot u_2 = m_1 \cdot v_1 + m_2 \cdot v_2}\)
+</p>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org6e57446" class="figure">
+<p><img src="img/2019-12-17_10-35-37_screenshot.png" alt="2019-12-17_10-35-37_screenshot.png" width="350px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-orgebfb648" data-background="">
+<h3 id="orgebfb648">Elastiske stød</h3>
+<video controls width="500">
+<source src="https://ku.23video.com/7718126/8160403/04df6f88f32076e403ae7e0f4d424a0e/video_hd/elastisk-stod-1-video.mp4?uuid=1efff373-451a-088a-a088-98fd825de4c6" type="video/mp4">
+</video>
+
+<div style="font-size: 60%;">
+<ul>
+<li class="fragment appear">Impulsen er bevaret.</li>
+<li class="fragment appear">\(m_1 \cdot u_1 + m_2 \cdot u_2 = m_1 \cdot v_1 + m_2 \cdot v_2\)</li>
+<li class="fragment appear">Den mekaniske energi er bevaret.</li>
+<li class="fragment appear">\(\frac{1}{2}m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2\)</li>
+
+</ul>
+</section>
+<section id="slide-org822d1ff" data-background="">
+<h3 id="org822d1ff">Uelastiske stød</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li class="fragment appear">Impulsen er bevaret (som altid i en stødproces).</li>
+<li class="fragment appear">Energien er <i>ikke</i> altid bevaret.</li>
+<li class="fragment appear">100% elastisk stød. Energien er bevaret.</li>
+<li class="fragment appear">100% uelastisk stød. Energien er <i>ikke</i> bevaret. Objekterne følges ad efter stødet.</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org2700123" class="figure">
+<p><img src="img/2019-12-17_11-21-02_screenshot.png" alt="2019-12-17_11-21-02_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-org1e365b6" data-background="">
+<h3 id="org1e365b6">Eksempel</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 60%">
+<ul>
+<li>To ens vogne, hver med massen \(m\).</li>
+<li>\(u_1=5 m/s\) , \(u_2=2.5 m/s\).</li>
+<li>Vognene låses sammen ved sammenstødet.</li>
+<li>Hvad er sluthastigheden?</li>
+
+</ul>
+<ul>
+<li class="fragment appear">\(\Delta p = 0 \to p_{før} = p_{efter}\)</li>
+<li class="fragment appear">\(m u_1 + m u_2 = (m+m) v\)</li>
+<li class="fragment appear">\(m \left( u_1 +  u_2  \right)= (m+m) v\)</li>
+<li class="fragment appear">\(m \left( u_1 +  u_2  \right)= 2m v\)</li>
+<li class="fragment appear">\(\frac{u_1 +  u_2  }{2}=v\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 40%">
+
+<div id="orgfc97e2c" class="figure">
+<p><img src="img/2019-12-17_12-02-08_screenshot.png" alt="2019-12-17_12-02-08_screenshot.png" width="600px" />
+</p>
+</div>
+<ul>
+<li class="fragment appear">\(\frac{5 m/s -  2.5 m/s  }{2}=v\)</li>
+<li class="fragment appear">\(1.25 m/s=v\)</li>
+<li class="fragment appear">Vognene bevæger sig mod højre.</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-org9d3b535" data-background="">
+<h3 id="org9d3b535">Regnetid</h3>
+<div class="column" style="float:left; width: 50%">
+
+<div id="org9a29315" class="figure">
+<p><img src="img/2020-01-28_08-47-30_screenshot.png" alt="2020-01-28_08-47-30_screenshot.png" width="600px" />
+</p>
+</div>
+
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="org299a0b6" class="figure">
+<p><img src="img/2019-12-17_15-21-04_screenshot.png" alt="2019-12-17_15-21-04_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+</section>
+<section data-background="">
+
+<div id="orgf6ddd01" class="figure">
+<p><img src="img/2019-12-17_15-35-43_screenshot.png" alt="2019-12-17_15-35-43_screenshot.png" width="600px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org277c783" data-background="">
+<h2 id="org277c783">Massemidtpunkt</h2>
+<div class="outline-text-2" id="text-org277c783">
+</div>
+</section>
+<section id="slide-org5bbbd78" data-background="">
+<h3 id="org5bbbd78">Massemidtpunkt</h3>
+<div class="column" style="float:left; width: 60%">
+<ul>
+<li>\(\vec{r}_T = \frac{\sum_i m_i \cdot \vec{r}_i}{M}\)</li>
+<li>\(M = \sum_i m_i\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 40%">
+
+
+<div id="org70385fb" class="figure">
+<p><img src="img/2019-12-17_12-22-44_screenshot.png" alt="2019-12-17_12-22-44_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-org5b70d04" data-background="">
+<h3 id="org5b70d04">Eksempel</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li>3 kugler i en retvinklet trekant.</li>
+<li>Vælg selv et passende koordinatsystem.</li>
+
+</ul>
+<ul>
+<li class="fragment appear">\(x_T = \frac{\sum m_i\cdot x_i}{M}\)</li>
+<li class="fragment appear">\(x_T = \frac{2 kg \cdot 0 m + 3 kg \cdot 0 m + 4 kg \cdot 3 m}{2 kg + 3 kg + 4 kg}\)</li>
+<li class="fragment appear">\(x_T = 1.33 m\)</li>
+<li class="fragment appear">\(y_T = \frac{\sum m_i\cdot y_i}{M}\)</li>
+<li class="fragment appear">\(y_T = \frac{2 kg \cdot 0 m + 3 kg \cdot 2 m + 4 kg \cdot 0 m}{2 kg + 3 kg + 4 kg}\)</li>
+<li class="fragment appear">\(y_T = 0.67 m\)</li>
+<li class="fragment appear">\(\boxed{\vec{r}_T = \begin{pmatrix} 1.33 m \\ 0.67 m \end{pmatrix}}\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orgd581cb2" class="figure">
+<p><img src="img/2019-12-17_12-31-50_screenshot.png" alt="2019-12-17_12-31-50_screenshot.png" width="600px" />
+</p>
+</div>
+
+
+<div id="orgda067ea" class="figure">
+<p><img src="img/2019-12-17_12-32-31_screenshot.png" alt="2019-12-17_12-32-31_screenshot.png" width="600px" />
+</p>
+</div>
+
+</div>
+</section>
+<section id="slide-orga74f170" data-background="">
+<h3 id="orga74f170">Massemidtpunktets hastighed</h3>
+<div style="font-size: 60%;">
+<ul>
+<li class="fragment appear">\(\vec{v}_T = \frac{\Delta \vec{r}_T}{\Delta t}\)</li>
+<li class="fragment appear">\(\vec{v}_T = \frac{\sum_i \frac{m_i \Delta \vec{r}_i}{M}}{\Delta t}\)</li>
+<li class="fragment appear">\(\vec{v}_T = \frac{1}{M}\cdot \sum_i m_i \boxed{\frac{ \Delta \vec{r}_i}{\Delta t}}\)</li>
+<li class="fragment appear">\(\vec{v}_T = \frac{1}{M}\cdot \sum_i m_i \boxed{\vec{v}_i}\)</li>
+<li class="fragment appear">Systemets samlede impuls er \(\vec{p}_\text{total} = \sum_i m_i \vec{v}_i\).</li>
+<li class="fragment appear">\(\boxed{\vec{p}_\text{total} = M \cdot \vec{v}_T}\)</li>
+
+</ul>
+
+<blockquote class="fragment (appear)">
+<p>
+Massemidtpunktets impuls er lige hele systemets impuls.
+</p>
+</blockquote>
+</section>
+<section id="slide-orgd07a120" data-background="">
+<h3 id="orgd07a120">Massemidtpunktets acceleration</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li class="fragment appear">\(\vec{a}_T = \frac{\Delta \vec{v}_T}{\Delta t}\)</li>
+<li class="fragment appear">\(\vec{a}_T = \frac{1}{M} \sum_i m_i \frac{\Delta \vec{v}_i}{\Delta t}\)</li>
+<li class="fragment appear">\(\vec{a}_T = \frac{\sum_i m_i \vec{a}_i}{M}\)</li>
+<li class="fragment appear">\(m_i \vec{a}_i = \vec{F}_i\)</li>
+<li class="fragment appear">\(\vec{F}_i = \vec{F}_{yi} + \vec{F}_{ii}\)</li>
+<li class="fragment appear">\(M \vec{a}_T = \sum_i m_i \vec{a}_i\)</li>
+<li class="fragment appear">\(M \vec{a}_T = \sum_i \left( \vec{F}_{yi}+ \vec{F}_{ii} \right)\)</li>
+<li class="fragment appear">\(M \vec{a}_T = \sum_i \vec{F}_{yi}+ \boxed{\sum_i \vec{F}_{ii}}\)</li>
+<li class="fragment appear">\(M \vec{a}_T = \sum_i \vec{F}_{yi}\)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="org77a180c" class="figure">
+<p><img src="img/2019-12-17_13-05-29_screenshot.png" alt="2019-12-17_13-05-29_screenshot.png" width="600px" />
+</p>
+</div>
+<ul>
+<li class="fragment appear">\(\vec{F}_y = \sum_i \vec{F}_{yi}\)</li>
+
+</ul>
+</div>
+
+</section>
+<section data-background="">
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li class="fragment appear">\(\boxed{\vec{F}_\text{ydre} = M \cdot \vec{a}_T}\)</li>
+
+</ul>
+<blockquote class="fragment (appear)">
+<p>
+Man kan samle massen for et system i ét punkt (massemidtpunktet), og lade den samlede ydre kraft virke på dette punkt.
+</p>
+</blockquote>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orgc26fee4" class="figure">
+<p><img src="img/2019-12-17_13-05-29_screenshot.png" alt="2019-12-17_13-05-29_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-orgf8232ea" data-background="">
+<h3 id="orgf8232ea">Eksempel</h3>
+<p>
+Kast med stav med tre lysdioder.
+</p>
+
+
+<div id="orgcff42bc" class="figure">
+<p><img src="img/2019-12-17_13-19-47_screenshot.png" alt="2019-12-17_13-19-47_screenshot.png" width="600px" />
+</p>
+</div>
+
+</section>
+<section data-background="">
+<p>
+Kast med stav med tre lysdioder.
+</p>
+
+<div id="org2fa0f82" class="figure">
+<p><img src="img/2019-12-17_13-20-13_screenshot.png" alt="2019-12-17_13-20-13_screenshot.png" width="400px" />
+</p>
+</div>
+</section>
+<section id="slide-org8361eaa" data-background="">
+<h3 id="org8361eaa">Regnetid</h3>
+
+<div id="org0cafa1b" class="figure">
+<p><img src="img/2019-12-17_17-08-58_screenshot.png" alt="2019-12-17_17-08-58_screenshot.png" width="600px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgeb9689f" data-background="">
+<h2 id="orgeb9689f">Raketligningen uden tyngdefelt</h2>
+<div class="outline-text-2" id="text-orgeb9689f">
+</div>
+</section>
+<section id="slide-orgf7dd68e" data-background="">
+<h3 id="orgf7dd68e">Raketligningen</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li>Ude i rummet kommer en raket fremad ved at smide brændstof den modsatte vej.</li>
+<li>Raket har øjeblikshastigheden \(v(t)\) og starthastigheden \(v_0\).</li>
+<li>Brændstof slynges med hastigheden \(u\) relativt til raketten.</li>
+<li>Raketten bliver altså lettere efter udstødning af brændstof.</li>
+
+</ul>
+<ul>
+<li class="fragment appear">\(\boxed{v(t) - v_0 = -u \cdot \ln \left( \frac{m(t)}{m_0} \right)}\)</li>
+<li class="fragment appear">\(m_0\) er begyndelsesmassen, \(m(t)\) er lavere masse af raketten efter udstødning.</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="org63217a2" class="figure">
+<p><img src="img/2019-12-17_13-27-18_screenshot.png" alt="2019-12-17_13-27-18_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+<section id="slide-org05f554f" data-background="">
+<h3 id="org05f554f">Regnetid</h3>
+
+<div id="org7341136" class="figure">
+<p><img src="img/2019-12-17_14-21-35_screenshot.png" alt="2019-12-17_14-21-35_screenshot.png" width="600px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org4a649dd" data-background="">
+<h2 id="org4a649dd">Raketligningen med tyngdefelt</h2>
+<div class="outline-text-2" id="text-org4a649dd">
+</div>
+</section>
+<section id="slide-orga8e953d" data-background="">
+<h3 id="orga8e953d">Raketligningen tæt på Jorden</h3>
+<div style="font-size: 60%;">
+<div class="column" style="float:left; width: 70%">
+<ul>
+<li>For lodret opsendelse tæt på Jorden gælder
+\[F_{\mathrm{res}}=m \cdot a_{\mathrm{res}}=F_{\mathrm{raket}}-F_{\mathrm{t}} = -u \cdot \frac{dm}{dt} - m \cdot g\]</li>
+<li>Den resulterende acceleration bliver
+\[a_{\mathrm{res}} = \frac{dv}{dt}= -u \cdot \frac{1}{m}\cdot \frac{dm}{dt}-g\]</li>
+<li>Som integreres til
+\[\boxed{v(t) -v_0 = -u \cdot \ln \left( \frac{m(t)}{m_0} \right)-g\cdot t}\]</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 30%">
+
+<div id="orgd465c25" class="figure">
+<p><img src="./img/falcon_heavy.jpg" alt="falcon_heavy.jpg" width="600px" />
+</p>
+</div>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org420ab27" data-background="">
+<h2 id="org420ab27">Diverse resterende opgaver</h2>
+<div class="outline-text-2" id="text-org420ab27">
+</div>
+</section>
+<section id="slide-orgdc06f9b" data-background="">
+<h3 id="orgdc06f9b">Regnetid</h3>
+<div class="column" style="float:left; width: 50%">
+
+<div id="orge338d33" class="figure">
+<p><img src="img/2019-12-17_15-39-02_screenshot.png" alt="2019-12-17_15-39-02_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="orgd1495b7" class="figure">
+<p><img src="img/2019-12-17_15-39-20_screenshot.png" alt="2019-12-17_15-39-20_screenshot.png" width="600px" />
+</p>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'slide',
+transitionSpeed: 'default',
+slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true,
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
