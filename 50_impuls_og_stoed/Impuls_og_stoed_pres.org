@@ -425,7 +425,7 @@ $\boxed{m_1 \cdot u_1 + m_2 \cdot u_2 = m_1 \cdot v_1 + m_2 \cdot v_2}$
   
 #+attr_reveal: :frag (appear)
 #+begin_quote
-Massemidtpunktets impuls er lige hele systemets impuls.
+Massemidtpunktets impuls er lig hele systemets impuls.
 #+end_quote
 
 ** Massemidtpunktets acceleration

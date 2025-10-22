@@ -68,7 +68,7 @@ Et projektil på 20 g affyres af en pistol, som vejer 0.87 kg. Pistolløbet er 1
 1. Bestem pistolens rekylhastighed.
 2. Bestem projektilets gennemsnitsacceleration.
 3. Bestem rekylkraften, altså kraftpåvirkningen på pistolen.
-4. Bestem gennemsnitskraften taget over 1/10 s.
+4. Bestem gennemsnitskraften på pistolen taget over 1/10 s.
 
 * Opgave 6                                                              :386:
 #+attr_html: :width 600px
